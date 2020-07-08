@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.43"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="KRZ-tt-T0e" customClass="PlaceInBestCollectionViewCell" customModule="ExploreTyumen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="219"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="219"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7xG-gd-3yD">
+                        <rect key="frame" x="0.0" y="0.0" width="286" height="219"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NtS-Cm-e9B" customClass="LoadingImageView" customModule="ExploreTyumen" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="286" height="219"/>
+                            </imageView>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOa-d1-CiS" customClass="GradientView" customModule="ExploreTyumen" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="69" width="286" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="uac-MZ-nwd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="startPointX">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="startPointY">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="endPointY">
+                                        <real key="value" value="1.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="endPointX">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTK-aV-dfu">
+                                <rect key="frame" x="14" y="182" width="262" height="25"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfG-nm-RlP">
+                                <rect key="frame" x="14" y="160.5" width="248" height="21.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                <color key="textColor" white="0.89763974471830987" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="iTK-aV-dfu" secondAttribute="trailing" constant="10" id="7UX-Nd-DgM"/>
+                            <constraint firstItem="NtS-Cm-e9B" firstAttribute="top" secondItem="7xG-gd-3yD" secondAttribute="top" id="81n-jd-Jk5"/>
+                            <constraint firstItem="NtS-Cm-e9B" firstAttribute="leading" secondItem="7xG-gd-3yD" secondAttribute="leading" id="8OB-nR-KMj"/>
+                            <constraint firstItem="IOa-d1-CiS" firstAttribute="leading" secondItem="7xG-gd-3yD" secondAttribute="leading" id="EHs-4E-qmd"/>
+                            <constraint firstAttribute="trailing" secondItem="IOa-d1-CiS" secondAttribute="trailing" id="IjN-7W-FVl"/>
+                            <constraint firstAttribute="trailing" secondItem="NtS-Cm-e9B" secondAttribute="trailing" id="aT4-zY-qvw"/>
+                            <constraint firstAttribute="bottom" secondItem="IOa-d1-CiS" secondAttribute="bottom" id="cVK-EY-6nZ"/>
+                            <constraint firstItem="JfG-nm-RlP" firstAttribute="leading" secondItem="7xG-gd-3yD" secondAttribute="leading" constant="14" id="fMZ-dC-7Jp"/>
+                            <constraint firstAttribute="bottom" secondItem="iTK-aV-dfu" secondAttribute="bottom" constant="12" id="fgr-ZY-GHW"/>
+                            <constraint firstAttribute="trailing" secondItem="JfG-nm-RlP" secondAttribute="trailing" constant="24" id="g0P-7x-OF1"/>
+                            <constraint firstAttribute="bottom" secondItem="NtS-Cm-e9B" secondAttribute="bottom" id="gq6-8T-QHp"/>
+                            <constraint firstItem="iTK-aV-dfu" firstAttribute="top" secondItem="JfG-nm-RlP" secondAttribute="bottom" id="nmI-bM-dyC"/>
+                            <constraint firstItem="iTK-aV-dfu" firstAttribute="leading" secondItem="7xG-gd-3yD" secondAttribute="leading" constant="14" id="yOe-J1-39c"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7xG-gd-3yD" secondAttribute="bottom" id="4hP-8g-N4x"/>
+                <constraint firstItem="7xG-gd-3yD" firstAttribute="leading" secondItem="KRZ-tt-T0e" secondAttribute="leading" id="dVg-DU-LZo"/>
+                <constraint firstAttribute="trailing" secondItem="7xG-gd-3yD" secondAttribute="trailing" id="neX-ga-PCC"/>
+                <constraint firstItem="7xG-gd-3yD" firstAttribute="top" secondItem="KRZ-tt-T0e" secondAttribute="top" id="xlj-qx-Bhf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="KhL-Dq-yJr"/>
+            <size key="customSize" width="286" height="219"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="JfG-nm-RlP" id="LJX-fJ-qFB"/>
+                <outlet property="imageViewMain" destination="NtS-Cm-e9B" id="bkq-Ef-giT"/>
+                <outlet property="titleLabel" destination="iTK-aV-dfu" id="91z-oQ-9zx"/>
+            </connections>
+            <point key="canvasLocation" x="44.927536231884062" y="33.147321428571431"/>
+        </collectionViewCell>
+    </objects>
+</document>

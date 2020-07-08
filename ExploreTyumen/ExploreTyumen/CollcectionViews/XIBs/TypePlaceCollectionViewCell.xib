@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TypePlaceCollectionViewCell" id="dMl-tl-ain" customClass="TypePlaceCollectionViewCell" customModule="ExploreTyumen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="36"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="36"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aaw-UV-BoD">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="36"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MWt-En-7Cl">
+                                <rect key="frame" x="3" y="3" width="94" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjx-jr-fzB">
+                                        <rect key="frame" x="4" y="5.5" width="86" height="19"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                        <color key="textColor" red="0.35294117650000001" green="0.34509803919999998" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="qjx-jr-fzB" firstAttribute="centerY" secondItem="MWt-En-7Cl" secondAttribute="centerY" id="2my-nc-an1"/>
+                                    <constraint firstAttribute="trailing" secondItem="qjx-jr-fzB" secondAttribute="trailing" constant="4" id="7Fh-EE-PTI"/>
+                                    <constraint firstItem="qjx-jr-fzB" firstAttribute="leading" secondItem="MWt-En-7Cl" secondAttribute="leading" constant="4" id="O7m-4t-Jsh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82352941180000006" green="0.23921568630000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MWt-En-7Cl" firstAttribute="leading" secondItem="Aaw-UV-BoD" secondAttribute="leading" constant="3" id="T58-mM-kwy"/>
+                            <constraint firstAttribute="trailing" secondItem="MWt-En-7Cl" secondAttribute="trailing" constant="3" id="TgQ-Hd-5mR"/>
+                            <constraint firstItem="MWt-En-7Cl" firstAttribute="top" secondItem="Aaw-UV-BoD" secondAttribute="top" constant="3" id="aWd-WQ-tHk"/>
+                            <constraint firstAttribute="bottom" secondItem="MWt-En-7Cl" secondAttribute="bottom" constant="3" id="dTp-Ct-3V1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Aaw-UV-BoD" secondAttribute="bottom" id="37C-9K-dmL"/>
+                <constraint firstItem="Aaw-UV-BoD" firstAttribute="top" secondItem="dMl-tl-ain" secondAttribute="top" id="9Ng-qw-1c2"/>
+                <constraint firstItem="Aaw-UV-BoD" firstAttribute="leading" secondItem="dMl-tl-ain" secondAttribute="leading" id="DtV-vd-y3w"/>
+                <constraint firstAttribute="trailing" secondItem="Aaw-UV-BoD" secondAttribute="trailing" id="Lp9-PC-SsC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="gaC-oB-ebn"/>
+            <connections>
+                <outlet property="typeLabel" destination="qjx-jr-fzB" id="yE6-ZZ-dkz"/>
+                <outlet property="viewBackground" destination="Aaw-UV-BoD" id="jtn-0Y-hFs"/>
+                <outlet property="viewState" destination="MWt-En-7Cl" id="F1l-HK-PKc"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="67"/>
+        </collectionViewCell>
+    </objects>
+</document>

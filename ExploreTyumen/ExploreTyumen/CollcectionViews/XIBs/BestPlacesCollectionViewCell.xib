@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.47"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BestPlacesCollectionViewCell" id="FjR-fH-KyI" customClass="BestPlacesCollectionViewCell" customModule="ExploreTyumen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vtv-lG-ta3">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="126"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s54-qz-mN0" customClass="LoadingImageView" customModule="ExploreTyumen" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="126"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="TwI-Ig-8iJ"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VyA-La-BIM">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="126"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Квест" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QA1-NJ-cu0">
+                                <rect key="frame" x="13" y="36.5" width="50" height="21"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                <color key="textColor" white="0.75272337147887325" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Литературный бульвар" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kiN-KF-1hu">
+                                <rect key="frame" x="13" y="57.5" width="180" height="56.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="aTR-dl-CSW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.95160284624413138" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VyA-La-BIM" firstAttribute="top" secondItem="Vtv-lG-ta3" secondAttribute="top" id="05j-uf-IdG"/>
+                            <constraint firstItem="QA1-NJ-cu0" firstAttribute="leading" secondItem="Vtv-lG-ta3" secondAttribute="leading" constant="13" id="2NQ-Gf-XCC"/>
+                            <constraint firstItem="VyA-La-BIM" firstAttribute="leading" secondItem="Vtv-lG-ta3" secondAttribute="leading" id="9yu-x8-bKs"/>
+                            <constraint firstAttribute="trailing" secondItem="s54-qz-mN0" secondAttribute="trailing" id="Fw3-9f-Bdr"/>
+                            <constraint firstItem="s54-qz-mN0" firstAttribute="top" secondItem="Vtv-lG-ta3" secondAttribute="top" id="Jj6-5Q-gBC"/>
+                            <constraint firstItem="s54-qz-mN0" firstAttribute="leading" secondItem="Vtv-lG-ta3" secondAttribute="leading" id="K23-Xw-T1d"/>
+                            <constraint firstAttribute="trailing" secondItem="kiN-KF-1hu" secondAttribute="trailing" constant="107" id="Nq8-lK-die"/>
+                            <constraint firstAttribute="trailing" secondItem="VyA-La-BIM" secondAttribute="trailing" id="TGT-Hk-qgB"/>
+                            <constraint firstAttribute="bottom" secondItem="s54-qz-mN0" secondAttribute="bottom" id="UU9-LV-rID"/>
+                            <constraint firstAttribute="bottom" secondItem="VyA-La-BIM" secondAttribute="bottom" id="b8V-14-Ey5"/>
+                            <constraint firstAttribute="bottom" secondItem="kiN-KF-1hu" secondAttribute="bottom" constant="12" id="ecl-nN-oee"/>
+                            <constraint firstItem="kiN-KF-1hu" firstAttribute="top" secondItem="QA1-NJ-cu0" secondAttribute="bottom" id="eyn-3P-EXz"/>
+                            <constraint firstAttribute="height" constant="126" id="kZK-Wd-md3"/>
+                            <constraint firstItem="kiN-KF-1hu" firstAttribute="leading" secondItem="Vtv-lG-ta3" secondAttribute="leading" constant="13" id="ysA-3m-bg7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lab-x2-jce">
+                        <rect key="frame" x="216" y="13" width="71" height="24"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Лучшее" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgr-vV-72S">
+                                <rect key="frame" x="10" y="3.5" width="51" height="17"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                <color key="textColor" white="0.91785871478873238" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.35998019366197181" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dgr-vV-72S" firstAttribute="leading" secondItem="lab-x2-jce" secondAttribute="leading" constant="10" id="0DZ-Na-8Qu"/>
+                            <constraint firstItem="dgr-vV-72S" firstAttribute="centerY" secondItem="lab-x2-jce" secondAttribute="centerY" id="51H-97-OMr"/>
+                            <constraint firstAttribute="trailing" secondItem="dgr-vV-72S" secondAttribute="trailing" constant="10" id="OHd-30-Urd"/>
+                            <constraint firstAttribute="height" constant="24" id="zlL-pB-0qm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Vtv-lG-ta3" firstAttribute="leading" secondItem="FjR-fH-KyI" secondAttribute="leading" id="Gnv-Hh-AtY"/>
+                <constraint firstAttribute="trailing" secondItem="Vtv-lG-ta3" secondAttribute="trailing" id="LkN-3a-1iV"/>
+                <constraint firstItem="lab-x2-jce" firstAttribute="top" secondItem="FjR-fH-KyI" secondAttribute="top" constant="13" id="SPQ-a5-fGn"/>
+                <constraint firstAttribute="bottom" secondItem="Vtv-lG-ta3" secondAttribute="bottom" id="av5-lJ-WGa"/>
+                <constraint firstItem="Vtv-lG-ta3" firstAttribute="top" secondItem="FjR-fH-KyI" secondAttribute="top" id="jmg-W6-ADg"/>
+                <constraint firstAttribute="trailing" secondItem="lab-x2-jce" secondAttribute="trailing" constant="13" id="nWX-AB-Kvw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Fie-E5-RR1"/>
+            <size key="customSize" width="281" height="-41"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="12"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="categorieLabel" destination="QA1-NJ-cu0" id="pur-nj-2sG"/>
+                <outlet property="imageMain" destination="s54-qz-mN0" id="4cp-au-nmf"/>
+                <outlet property="titleLabel" destination="kiN-KF-1hu" id="m4M-fz-WMZ"/>
+                <outlet property="viewFullCollectionView" destination="Vtv-lG-ta3" id="7Ll-nW-Zvn"/>
+                <outlet property="viewType" destination="lab-x2-jce" id="InJ-X7-mMU"/>
+            </connections>
+            <point key="canvasLocation" x="178" y="19"/>
+        </collectionViewCell>
+    </objects>
+</document>

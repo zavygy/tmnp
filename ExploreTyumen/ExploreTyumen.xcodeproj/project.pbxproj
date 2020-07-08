@@ -1,0 +1,1428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CEFB1D209EB4618174A63E0 /* Pods_Places_Nearby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B27B8CACA6516417B5D38CA /* Pods_Places_Nearby.framework */; };
+		1BE5C8F31A695FFCFD748C39 /* Pods_ExploreTyumen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA96A6DA05B17CD0E9D1948 /* Pods_ExploreTyumen.framework */; };
+		92157469223196210063007F /* StatisticsInQuestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92157468223196210063007F /* StatisticsInQuestCell.xib */; };
+		9215746B2231963C0063007F /* StatisticsInQuestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9215746A2231963C0063007F /* StatisticsInQuestCell.swift */; };
+		92296BEF221894C20087B7A5 /* LittlePlaceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92296BEE221894C20087B7A5 /* LittlePlaceCollectionViewCell.xib */; };
+		92296BF1221896EA0087B7A5 /* LittlePlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92296BF0221896EA0087B7A5 /* LittlePlaceCollectionViewCell.swift */; };
+		92296BF322189A8E0087B7A5 /* BestsLinkCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92296BF222189A8E0087B7A5 /* BestsLinkCollectionViewCell.xib */; };
+		92296BF522189A9D0087B7A5 /* BestsLinkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92296BF422189A9D0087B7A5 /* BestsLinkCollectionViewCell.swift */; };
+		9242614C221C0C1500350260 /* frontPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 9242614B221C0C1500350260 /* frontPhoto.png */; };
+		926253A9221435C7007EED1E /* DeepIntoHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926253A8221435C7007EED1E /* DeepIntoHistoryModel.swift */; };
+		929E836F2233FECD00E48360 /* QuestStatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E836E2233FECD00E48360 /* QuestStatisticModel.swift */; };
+		92BB636622197C7B00867A5F /* introBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BB636522197C7A00867A5F /* introBack.png */; };
+		92C87CB8222A71A200F8EA9E /* QuestDetailed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C87CB7222A71A200F8EA9E /* QuestDetailed.storyboard */; };
+		92D421AA2217FAEC00595AFF /* BestCardIntroCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D421A92217FAEC00595AFF /* BestCardIntroCollectionViewCell.xib */; };
+		92D421AC2217FC7600595AFF /* BestCardIntroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D421AB2217FC7600595AFF /* BestCardIntroCollectionViewCell.swift */; };
+		92D421AE2217FD1600595AFF /* BestCardIntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D421AD2217FD1600595AFF /* BestCardIntroModel.swift */; };
+		92DC2A57222061DA00DBD7E5 /* PlaceInBestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DC2A56222061DA00DBD7E5 /* PlaceInBestCollectionViewCell.xib */; };
+		92DC2A59222061ED00DBD7E5 /* PlaceInBestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC2A58222061ED00DBD7E5 /* PlaceInBestCollectionViewCell.swift */; };
+		BD0169E82173714C0072EC12 /* BestPlacesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0169E72173714C0072EC12 /* BestPlacesCollectionViewCell.xib */; };
+		BD0169EA217374590072EC12 /* BestPlacesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0169E9217374590072EC12 /* BestPlacesCollectionViewCell.swift */; };
+		BD0169EC2173819F0072EC12 /* mapStyleRetro.json in Resources */ = {isa = PBXBuildFile; fileRef = BD0169EB2173818E0072EC12 /* mapStyleRetro.json */; };
+		BD0169EF21739E2F0072EC12 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0169EE21739E2F0072EC12 /* CollectionsViewController.swift */; };
+		BD03B6E321EF562600FB528F /* QuickSightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03B6E221EF562600FB528F /* QuickSightModel.swift */; };
+		BD03B6E521EF612C00FB528F /* QuickSight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD03B6E421EF612C00FB528F /* QuickSight.storyboard */; };
+		BD08B2AD21C0FD00001685D2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B2AC21C0FD00001685D2 /* NotificationCenter.framework */; };
+		BD08B2B021C0FD00001685D2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD08B2AF21C0FD00001685D2 /* TodayViewController.swift */; };
+		BD08B2B321C0FD00001685D2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD08B2B121C0FD00001685D2 /* MainInterface.storyboard */; };
+		BD08B2B721C0FD00001685D2 /* Places Nearby.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD08B2AB21C0FD00001685D2 /* Places Nearby.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BD08B2DC21C0FF5D001685D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD08B2DB21C0FF5D001685D2 /* GoogleService-Info.plist */; };
+		BD08B2E021C1033B001685D2 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD944F3F2154BD770069DA88 /* PlaceModel.swift */; };
+		BD08B2E121C103C8001685D2 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9DF4021B97385009B6222 /* Connectivity.swift */; };
+		BD08B2E221C103EA001685D2 /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1094DF219EF41A00B4AA68 /* CollectionModel.swift */; };
+		BD08B2E321C103EE001685D2 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90C2142178CB3E000BA70D /* Enums.swift */; };
+		BD08B2E421C10405001685D2 /* BestCategorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E2C152188AEA900D8FA05 /* BestCategorieModel.swift */; };
+		BD08B2E521C10424001685D2 /* InterestingFactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F81E2219C583900D2BFE6 /* InterestingFactModel.swift */; };
+		BD08B2E621C1042E001685D2 /* ThingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A128321AC13F700738C55 /* ThingModel.swift */; };
+		BD08B2E721C10447001685D2 /* QuestionForPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE012262156A635004D5543 /* QuestionForPlace.swift */; };
+		BD08B2E921C1045E001685D2 /* BestCategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E2C132188A93000D8FA05 /* BestCategoriesCollectionViewCell.swift */; };
+		BD08B2EF21C116C1001685D2 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD08B2EE21C116C1001685D2 /* NetworkExtension.framework */; };
+		BD08B2F121C116CF001685D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD1F3D9214DA1E600E0BDFB /* MapKit.framework */; };
+		BD08B2F221C119EC001685D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE08643214BB3CD008B6551 /* Extensions.swift */; };
+		BD08B2F321C11A3B001685D2 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3281AE215FB23B00F9FE9B /* RobotoSlab-Bold.ttf */; };
+		BD08B2F421C11A3E001685D2 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3281B0215FB23B00F9FE9B /* RobotoSlab-Light.ttf */; };
+		BD08B2F521C11A40001685D2 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3281AF215FB23B00F9FE9B /* RobotoSlab-Regular.ttf */; };
+		BD08B2F621C11A43001685D2 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3281B1215FB23C00F9FE9B /* RobotoSlab-Thin.ttf */; };
+		BD08B2F721C11A45001685D2 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06D2171227E00F0B158 /* Roboto-Black.ttf */; };
+		BD08B2F821C11A48001685D2 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06A2171227E00F0B158 /* Roboto-Bold.ttf */; };
+		BD08B2F921C11A4B001685D2 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06B2171227E00F0B158 /* Roboto-Light.ttf */; };
+		BD08B2FA21C11A4D001685D2 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06E2171227F00F0B158 /* Roboto-Medium.ttf */; };
+		BD08B2FB21C11A50001685D2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06C2171227E00F0B158 /* Roboto-Regular.ttf */; };
+		BD08B2FC21C11A52001685D2 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A0692171227E00F0B158 /* Roboto-Thin.ttf */; };
+		BD0A128021AC118600738C55 /* ThingsThatShouldBeDoneCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0A127F21AC118600738C55 /* ThingsThatShouldBeDoneCollectionViewCell.xib */; };
+		BD0A128221AC130200738C55 /* ThingsThatShouldBeDoneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A128121AC130200738C55 /* ThingsThatShouldBeDoneCollectionViewCell.swift */; };
+		BD0A128421AC13F700738C55 /* ThingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A128321AC13F700738C55 /* ThingModel.swift */; };
+		BD0A128621AC16B100738C55 /* TenThongsToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A128521AC16B100738C55 /* TenThongsToDoViewController.swift */; };
+		BD0A128821AC1CBF00738C55 /* ThingsToDoneMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0A128721AC1CBF00738C55 /* ThingsToDoneMainCollectionViewCell.xib */; };
+		BD0A128A21AC1E0500738C55 /* ThingsToDoneMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A128921AC1E0500738C55 /* ThingsToDoneMainCollectionViewCell.swift */; };
+		BD0A128C21AC220D00738C55 /* goryachieIstochniki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD0A128B21AC220D00738C55 /* goryachieIstochniki.jpg */; };
+		BD0D76002180E26100E61FFA /* BackgroundLocationNotifyies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D75FF2180E26100E61FFA /* BackgroundLocationNotifyies.swift */; };
+		BD1094E0219EF41A00B4AA68 /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1094DF219EF41A00B4AA68 /* CollectionModel.swift */; };
+		BD1094E2219EF94300B4AA68 /* CollectiongroupCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1094E1219EF94300B4AA68 /* CollectiongroupCollectionViewCell.xib */; };
+		BD1094E4219F017500B4AA68 /* CollectiongroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1094E3219F017500B4AA68 /* CollectiongroupCollectionViewCell.swift */; };
+		BD168ADD21E7593600A7CE2F /* QAfterQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD168ADC21E7593600A7CE2F /* QAfterQuestionViewController.swift */; };
+		BD1CABD5214BD0E300A2BEFD /* nabereznaya1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1CABD4214BD0E300A2BEFD /* nabereznaya1.jpg */; };
+		BD1CABD7214BD25000A2BEFD /* history1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD1CABD6214BD25000A2BEFD /* history1.png */; };
+		BD1CBCEF21F23930005F19E5 /* DetailedPlace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1CBCEE21F23930005F19E5 /* DetailedPlace.storyboard */; };
+		BD1DEF4B21E61399004B8970 /* gorIstoch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF4A21E61399004B8970 /* gorIstoch.jpg */; };
+		BD1DEF4D21E613BB004B8970 /* medGorod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF4C21E613BB004B8970 /* medGorod.jpg */; };
+		BD1DEF4F21E613DC004B8970 /* prirodaSibiri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF4E21E613DC004B8970 /* prirodaSibiri.jpg */; };
+		BD1DEF5121E613F8004B8970 /* istorGorod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF5021E613F8004B8970 /* istorGorod.jpg */; };
+		BD1DEF5321E61419004B8970 /* filarmoniya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF5221E61419004B8970 /* filarmoniya.jpg */; };
+		BD1DEF5621E61452004B8970 /* nabereznaya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF5421E61451004B8970 /* nabereznaya.jpg */; };
+		BD1DEF5721E61452004B8970 /* muzei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF5521E61451004B8970 /* muzei.jpg */; };
+		BD1DEF5B21E6149A004B8970 /* edaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF5821E61499004B8970 /* edaa.jpg */; };
+		BD1DEF5C21E6149A004B8970 /* kolesoObozreniya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF5921E61499004B8970 /* kolesoObozreniya.jpg */; };
+		BD1DEF5D21E6149A004B8970 /* dramTheatre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1DEF5A21E61499004B8970 /* dramTheatre.jpg */; };
+		BD23CF5E21D77B7A00555954 /* QuestDescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23CF5D21D77B7A00555954 /* QuestDescriptionModel.swift */; };
+		BD26BE5221EB68EE00896908 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD26BE5121EB68EE00896908 /* PhotoCollectionViewCell.xib */; };
+		BD26BE5421EB692100896908 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26BE5321EB692100896908 /* PhotoCollectionViewCell.swift */; };
+		BD2DC69421E48F7D0040547D /* Quest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2DC69321E48F7D0040547D /* Quest.storyboard */; };
+		BD31C32A21B688160047C230 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD31C32921B688150047C230 /* GoogleService-Info.plist */; };
+		BD31C32C21B689340047C230 /* FirebaseMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31C32B21B689340047C230 /* FirebaseMethods.swift */; };
+		BD31D31821863B4100AFE86A /* tumMuzeiCompl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD31D31721863B4100AFE86A /* tumMuzeiCompl.jpg */; };
+		BD3281B2215FB23C00F9FE9B /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3281AE215FB23B00F9FE9B /* RobotoSlab-Bold.ttf */; };
+		BD3281B3215FB23C00F9FE9B /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3281AF215FB23B00F9FE9B /* RobotoSlab-Regular.ttf */; };
+		BD3281B4215FB23C00F9FE9B /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3281B0215FB23B00F9FE9B /* RobotoSlab-Light.ttf */; };
+		BD3281B5215FB23C00F9FE9B /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3281B1215FB23C00F9FE9B /* RobotoSlab-Thin.ttf */; };
+		BD3408FE2156870900C95FFE /* dismiss_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3408FD2156870700C95FFE /* dismiss_icon.png */; };
+		BD35C64521F8A6E300DA268D /* CollectionPlaceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD35C64421F8A6E300DA268D /* CollectionPlaceCollectionViewCell.xib */; };
+		BD35C64721F8AB0D00DA268D /* CollectionPlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD35C64621F8AB0D00DA268D /* CollectionPlaceCollectionViewCell.swift */; };
+		BD45857621722EF400F744A3 /* NearUserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD45857521722EF400F744A3 /* NearUserCollectionViewCell.xib */; };
+		BD45857921722F7600F744A3 /* NearUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD45857821722F7600F744A3 /* NearUserCollectionViewCell.swift */; };
+		BD4D072021D9520B00F7BB24 /* goryachieIstochniki.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4D071F21D9520B00F7BB24 /* goryachieIstochniki.png */; };
+		BD4D072221D9524A00F7BB24 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4D072121D9524A00F7BB24 /* history.png */; };
+		BD4D072421D9557700F7BB24 /* mainTenT.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4D072321D9557700F7BB24 /* mainTenT.png */; };
+		BD5284EC21E67593003C3CEF /* QQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5284EB21E67593003C3CEF /* QQuestionViewController.swift */; };
+		BD59937C2153FABF003FCBFA /* cancelIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD59937B2153FABF003FCBFA /* cancelIcon.png */; };
+		BD5E67B1215F783F00F7C9C2 /* RoundShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E67B0215F783F00F7C9C2 /* RoundShadowView.swift */; };
+		BD60470921D2329E00356429 /* RealmCoreClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60470821D2329E00356429 /* RealmCoreClasses.swift */; };
+		BD60470B21D2383400356429 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60470A21D2383400356429 /* FirstScreenViewController.swift */; };
+		BD60471021D25B8600356429 /* BestFewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60470F21D25B8600356429 /* BestFewTableViewCell.swift */; };
+		BD6056002179AD53009783C3 /* GroupPlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6055FF2179AD53009783C3 /* GroupPlaceModel.swift */; };
+		BD71CA2821B027B7007F7C89 /* nabereznayaTMN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD71CA2721B027B7007F7C89 /* nabereznayaTMN.jpg */; };
+		BD741B5021CEB98E001BBC01 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD741B4F21CEB98E001BBC01 /* SearchViewController.swift */; };
+		BD7514E3216FAEFA0050126C /* mapStyleSilver.json in Resources */ = {isa = PBXBuildFile; fileRef = BD7514E2216FACC80050126C /* mapStyleSilver.json */; };
+		BD7E2C122188A6D800D8FA05 /* BestCategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7E2C112188A6D800D8FA05 /* BestCategoriesCollectionViewCell.xib */; };
+		BD7E2C142188A93000D8FA05 /* BestCategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E2C132188A93000D8FA05 /* BestCategoriesCollectionViewCell.swift */; };
+		BD7E2C162188AEA900D8FA05 /* BestCategorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E2C152188AEA900D8FA05 /* BestCategorieModel.swift */; };
+		BD7F81E3219C583900D2BFE6 /* InterestingFactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F81E2219C583900D2BFE6 /* InterestingFactModel.swift */; };
+		BD7F81E7219C5BB200D2BFE6 /* InterestFactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7F81E6219C5BB200D2BFE6 /* InterestFactCollectionViewCell.xib */; };
+		BD7F81E9219C63E300D2BFE6 /* InterestFactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F81E8219C63E300D2BFE6 /* InterestFactCollectionViewCell.swift */; };
+		BD8281C021A9208F00FFD9B2 /* BestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8281BF21A9208F00FFD9B2 /* BestTableViewCell.swift */; };
+		BD83086721E475EC00691847 /* QPlaceDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83086621E475EC00691847 /* QPlaceDescriptionViewController.swift */; };
+		BD83A3AF219890A500AF7FF0 /* SpotlightFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83A3AE219890A500AF7FF0 /* SpotlightFeatures.swift */; };
+		BD8EB03421F729E3008AECA6 /* DetailedCollection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8EB03321F729E3008AECA6 /* DetailedCollection.storyboard */; };
+		BD90C20A2178A88E000BA70D /* BestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90C2092178A88E000BA70D /* BestViewController.swift */; };
+		BD90C20C2178A8E6000BA70D /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90C20B2178A8E6000BA70D /* PlacesViewController.swift */; };
+		BD90C20E2178A930000BA70D /* QuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90C20D2178A930000BA70D /* QuestsViewController.swift */; };
+		BD90C2102178ADFC000BA70D /* PlaceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD90C20F2178ADFC000BA70D /* PlaceCollectionViewCell.xib */; };
+		BD90C2122178B08F000BA70D /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90C2112178B08F000BA70D /* PlaceCollectionViewCell.swift */; };
+		BD90C2152178CB3E000BA70D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90C2142178CB3E000BA70D /* Enums.swift */; };
+		BD944F402154BD770069DA88 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD944F3F2154BD770069DA88 /* PlaceModel.swift */; };
+		BD9C837C215AAACA00204668 /* cancel_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9C837B215AAACA00204668 /* cancel_icon.png */; };
+		BD9DD44D21F6345000F45050 /* TimeTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9DD44C21F6345000F45050 /* TimeTableModel.swift */; };
+		BD9DD44E21F638C500F45050 /* TimeTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9DD44C21F6345000F45050 /* TimeTableModel.swift */; };
+		BDA8FF1021D93A3B00841670 /* GradientViewFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8FF0F21D93A3B00841670 /* GradientViewFiles.swift */; };
+		BDBA5042217F8C0600F307D4 /* teatrKukol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDBA503B217F8C0500F307D4 /* teatrKukol.jpg */; };
+		BDBA5048217F8C0600F307D4 /* dramTeatr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDBA5041217F8C0600F307D4 /* dramTeatr.jpg */; };
+		BDBA5058217F919800F307D4 /* aleksSad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDBA5052217F919800F307D4 /* aleksSad.jpg */; };
+		BDBBBEC02185F70300965954 /* QuestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBBBEBF2185F70300965954 /* QuestCollectionViewCell.xib */; };
+		BDBBBEC22185FD9200965954 /* QuestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBBBEC12185FD9200965954 /* QuestCollectionViewCell.swift */; };
+		BDBD208E2179EBD100EBD760 /* TypePlaceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBD208D2179EBD100EBD760 /* TypePlaceCollectionViewCell.xib */; };
+		BDBD20902179ECDF00EBD760 /* TypePlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD208F2179ECDF00EBD760 /* TypePlaceCollectionViewCell.swift */; };
+		BDBED0D421ECDC4D00AC54A5 /* BestCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBED0D321ECDC4D00AC54A5 /* BestCollectionViewLayout.swift */; };
+		BDC86910214FE2D600E3A53E /* QuestDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8690F214FE2D600E3A53E /* QuestDetailedViewController.swift */; };
+		BDC86912214FE4C900E3A53E /* QuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC86911214FE4C900E3A53E /* QuestModel.swift */; };
+		BDC86914214FF2EB00E3A53E /* TyumenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC86913214FF2EB00E3A53E /* TyumenApp.swift */; };
+		BDC916AC21AC3A3A009F1B03 /* goryachieIstochnikiMain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDC916AB21AC3A3A009F1B03 /* goryachieIstochnikiMain.jpg */; };
+		BDC9DF4121B97385009B6222 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9DF4021B97385009B6222 /* Connectivity.swift */; };
+		BDD1F3DA214DA1E600E0BDFB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD1F3D9214DA1E600E0BDFB /* MapKit.framework */; };
+		BDD6A06F2171227F00F0B158 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A0692171227E00F0B158 /* Roboto-Thin.ttf */; };
+		BDD6A0702171227F00F0B158 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06A2171227E00F0B158 /* Roboto-Bold.ttf */; };
+		BDD6A0712171227F00F0B158 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06B2171227E00F0B158 /* Roboto-Light.ttf */; };
+		BDD6A0722171227F00F0B158 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06C2171227E00F0B158 /* Roboto-Regular.ttf */; };
+		BDD6A0732171227F00F0B158 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06D2171227E00F0B158 /* Roboto-Black.ttf */; };
+		BDD6A0742171227F00F0B158 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDD6A06E2171227F00F0B158 /* Roboto-Medium.ttf */; };
+		BDD90D1E21A0654D00249B99 /* DetailedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD90D1D21A0654D00249B99 /* DetailedCollectionViewController.swift */; };
+		BDE012212156A216004D5543 /* QuestNextPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE012202156A216004D5543 /* QuestNextPlaceViewController.swift */; };
+		BDE012232156A372004D5543 /* BackgroundLayerQuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE012222156A372004D5543 /* BackgroundLayerQuestModel.swift */; };
+		BDE012272156A635004D5543 /* QuestionForPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE012262156A635004D5543 /* QuestionForPlace.swift */; };
+		BDE0862E214BB212008B6551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE0862D214BB212008B6551 /* AppDelegate.swift */; };
+		BDE08630214BB212008B6551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE0862F214BB212008B6551 /* ViewController.swift */; };
+		BDE08633214BB212008B6551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE08631214BB212008B6551 /* Main.storyboard */; };
+		BDE08636214BB212008B6551 /* ExploreTyumen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDE08634214BB212008B6551 /* ExploreTyumen.xcdatamodeld */; };
+		BDE0863B214BB214008B6551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE08639214BB214008B6551 /* LaunchScreen.storyboard */; };
+		BDE08644214BB3CD008B6551 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE08643214BB3CD008B6551 /* Extensions.swift */; };
+		BDE42AB4219DD4BB004210B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE42AB3219DD4B9004210B8 /* Assets.xcassets */; };
+		BDE56A10215A23D60034728A /* EndQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE56A0F215A23D60034728A /* EndQuestViewController.swift */; };
+		BDE888AD2155498A00F3614E /* DetailedPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE888AC2155498A00F3614E /* DetailedPlaceViewController.swift */; };
+		BDF0D3862186F59F00A5C066 /* LoadingPlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0D3852186F59F00A5C066 /* LoadingPlacesService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD08B2B521C0FD00001685D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE08622214BB212008B6551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD08B2AA21C0FD00001685D2;
+			remoteInfo = "Places Nearby";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD2934A421A9B89D003FB57E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BD08B2B721C0FD00001685D2 /* Places Nearby.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FA96A6DA05B17CD0E9D1948 /* Pods_ExploreTyumen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreTyumen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B27B8CACA6516417B5D38CA /* Pods_Places_Nearby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Places_Nearby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		665A0A2894B67381EE9BECD8 /* Pods-Places Nearby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Places Nearby.release.xcconfig"; path = "Pods/Target Support Files/Pods-Places Nearby/Pods-Places Nearby.release.xcconfig"; sourceTree = "<group>"; };
+		7A524B2B6775090805D99884 /* Pods-ExploreTyumen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreTyumen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExploreTyumen/Pods-ExploreTyumen.debug.xcconfig"; sourceTree = "<group>"; };
+		92157468223196210063007F /* StatisticsInQuestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsInQuestCell.xib; sourceTree = "<group>"; };
+		9215746A2231963C0063007F /* StatisticsInQuestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsInQuestCell.swift; sourceTree = "<group>"; };
+		92296BEE221894C20087B7A5 /* LittlePlaceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LittlePlaceCollectionViewCell.xib; sourceTree = "<group>"; };
+		92296BF0221896EA0087B7A5 /* LittlePlaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		92296BF222189A8E0087B7A5 /* BestsLinkCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestsLinkCollectionViewCell.xib; sourceTree = "<group>"; };
+		92296BF422189A9D0087B7A5 /* BestsLinkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestsLinkCollectionViewCell.swift; sourceTree = "<group>"; };
+		9242614B221C0C1500350260 /* frontPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontPhoto.png; sourceTree = "<group>"; };
+		926253A8221435C7007EED1E /* DeepIntoHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepIntoHistoryModel.swift; sourceTree = "<group>"; };
+		929E836E2233FECD00E48360 /* QuestStatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestStatisticModel.swift; sourceTree = "<group>"; };
+		92BB636522197C7A00867A5F /* introBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introBack.png; sourceTree = "<group>"; };
+		92C87CB7222A71A200F8EA9E /* QuestDetailed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuestDetailed.storyboard; sourceTree = "<group>"; };
+		92D421A92217FAEC00595AFF /* BestCardIntroCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestCardIntroCollectionViewCell.xib; sourceTree = "<group>"; };
+		92D421AB2217FC7600595AFF /* BestCardIntroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCardIntroCollectionViewCell.swift; sourceTree = "<group>"; };
+		92D421AD2217FD1600595AFF /* BestCardIntroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCardIntroModel.swift; sourceTree = "<group>"; };
+		92DC2A56222061DA00DBD7E5 /* PlaceInBestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceInBestCollectionViewCell.xib; sourceTree = "<group>"; };
+		92DC2A58222061ED00DBD7E5 /* PlaceInBestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceInBestCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB9BDC5FA3583C5D4B56AE4E /* Pods-ExploreTyumen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreTyumen.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExploreTyumen/Pods-ExploreTyumen.release.xcconfig"; sourceTree = "<group>"; };
+		BD0169E72173714C0072EC12 /* BestPlacesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestPlacesCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD0169E9217374590072EC12 /* BestPlacesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestPlacesCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD0169EB2173818E0072EC12 /* mapStyleRetro.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mapStyleRetro.json; sourceTree = "<group>"; };
+		BD0169EE21739E2F0072EC12 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		BD03B6E221EF562600FB528F /* QuickSightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSightModel.swift; sourceTree = "<group>"; };
+		BD03B6E421EF612C00FB528F /* QuickSight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuickSight.storyboard; sourceTree = "<group>"; };
+		BD08B2AB21C0FD00001685D2 /* Places Nearby.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Places Nearby.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2AC21C0FD00001685D2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BD08B2AF21C0FD00001685D2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BD08B2B221C0FD00001685D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BD08B2B421C0FD00001685D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD08B2BB21C0FE57001685D2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2BD21C0FE57001685D2 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2BF21C0FE57001685D2 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2C121C0FE57001685D2 /* FirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2C321C0FE57001685D2 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2C521C0FE57001685D2 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2C721C0FE57001685D2 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2C921C0FE57001685D2 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2CB21C0FE57001685D2 /* MapKitGoogleStyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MapKitGoogleStyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2CD21C0FE57001685D2 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2D021C0FEBF001685D2 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2D221C0FEC3001685D2 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2D421C0FECD001685D2 /* FirebaseStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2D621C0FED2001685D2 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2D821C0FED9001685D2 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD08B2DB21C0FF5D001685D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD08B2EE21C116C1001685D2 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		BD08B2F021C116C1001685D2 /* Places Nearby.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Places Nearby.entitlements"; sourceTree = "<group>"; };
+		BD0A127F21AC118600738C55 /* ThingsThatShouldBeDoneCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThingsThatShouldBeDoneCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD0A128121AC130200738C55 /* ThingsThatShouldBeDoneCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsThatShouldBeDoneCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD0A128321AC13F700738C55 /* ThingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingModel.swift; sourceTree = "<group>"; };
+		BD0A128521AC16B100738C55 /* TenThongsToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenThongsToDoViewController.swift; sourceTree = "<group>"; };
+		BD0A128721AC1CBF00738C55 /* ThingsToDoneMainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThingsToDoneMainCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD0A128921AC1E0500738C55 /* ThingsToDoneMainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsToDoneMainCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD0A128B21AC220D00738C55 /* goryachieIstochniki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goryachieIstochniki.jpg; sourceTree = "<group>"; };
+		BD0D75FE2180549900E61FFA /* ExploreTyumen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExploreTyumen.entitlements; sourceTree = "<group>"; };
+		BD0D75FF2180E26100E61FFA /* BackgroundLocationNotifyies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLocationNotifyies.swift; sourceTree = "<group>"; };
+		BD1094DF219EF41A00B4AA68 /* CollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionModel.swift; sourceTree = "<group>"; };
+		BD1094E1219EF94300B4AA68 /* CollectiongroupCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectiongroupCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD1094E3219F017500B4AA68 /* CollectiongroupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiongroupCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD168ADC21E7593600A7CE2F /* QAfterQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAfterQuestionViewController.swift; sourceTree = "<group>"; };
+		BD1CABD4214BD0E300A2BEFD /* nabereznaya1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nabereznaya1.jpg; sourceTree = "<group>"; };
+		BD1CABD6214BD25000A2BEFD /* history1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history1.png; sourceTree = "<group>"; };
+		BD1CBCEE21F23930005F19E5 /* DetailedPlace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailedPlace.storyboard; sourceTree = "<group>"; };
+		BD1DEF4A21E61399004B8970 /* gorIstoch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gorIstoch.jpg; sourceTree = "<group>"; };
+		BD1DEF4C21E613BB004B8970 /* medGorod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medGorod.jpg; sourceTree = "<group>"; };
+		BD1DEF4E21E613DC004B8970 /* prirodaSibiri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prirodaSibiri.jpg; sourceTree = "<group>"; };
+		BD1DEF5021E613F8004B8970 /* istorGorod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istorGorod.jpg; sourceTree = "<group>"; };
+		BD1DEF5221E61419004B8970 /* filarmoniya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = filarmoniya.jpg; sourceTree = "<group>"; };
+		BD1DEF5421E61451004B8970 /* nabereznaya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nabereznaya.jpg; sourceTree = "<group>"; };
+		BD1DEF5521E61451004B8970 /* muzei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muzei.jpg; sourceTree = "<group>"; };
+		BD1DEF5821E61499004B8970 /* edaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edaa.jpg; sourceTree = "<group>"; };
+		BD1DEF5921E61499004B8970 /* kolesoObozreniya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kolesoObozreniya.jpg; sourceTree = "<group>"; };
+		BD1DEF5A21E61499004B8970 /* dramTheatre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dramTheatre.jpg; sourceTree = "<group>"; };
+		BD23CF5D21D77B7A00555954 /* QuestDescriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDescriptionModel.swift; sourceTree = "<group>"; };
+		BD26BE5121EB68EE00896908 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD26BE5321EB692100896908 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD29349321A9B89D003FB57E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		BD29349521A9B89D003FB57E /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		BD2DC69321E48F7D0040547D /* Quest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quest.storyboard; sourceTree = "<group>"; };
+		BD31C32921B688150047C230 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD31C32B21B689340047C230 /* FirebaseMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseMethods.swift; sourceTree = "<group>"; };
+		BD31D31721863B4100AFE86A /* tumMuzeiCompl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tumMuzeiCompl.jpg; sourceTree = "<group>"; };
+		BD3281AE215FB23B00F9FE9B /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		BD3281AF215FB23B00F9FE9B /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		BD3281B0215FB23B00F9FE9B /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		BD3281B1215FB23C00F9FE9B /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		BD3408FD2156870700C95FFE /* dismiss_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dismiss_icon.png; sourceTree = "<group>"; };
+		BD35C64421F8A6E300DA268D /* CollectionPlaceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionPlaceCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD35C64621F8AB0D00DA268D /* CollectionPlaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD45857521722EF400F744A3 /* NearUserCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NearUserCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD45857821722F7600F744A3 /* NearUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD4D071F21D9520B00F7BB24 /* goryachieIstochniki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goryachieIstochniki.png; sourceTree = "<group>"; };
+		BD4D072121D9524A00F7BB24 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		BD4D072321D9557700F7BB24 /* mainTenT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainTenT.png; sourceTree = "<group>"; };
+		BD5284EB21E67593003C3CEF /* QQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQuestionViewController.swift; sourceTree = "<group>"; };
+		BD59937B2153FABF003FCBFA /* cancelIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelIcon.png; sourceTree = "<group>"; };
+		BD5E67B0215F783F00F7C9C2 /* RoundShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundShadowView.swift; sourceTree = "<group>"; };
+		BD60470821D2329E00356429 /* RealmCoreClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCoreClasses.swift; sourceTree = "<group>"; };
+		BD60470A21D2383400356429 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		BD60470F21D25B8600356429 /* BestFewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestFewTableViewCell.swift; sourceTree = "<group>"; };
+		BD6055FF2179AD53009783C3 /* GroupPlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPlaceModel.swift; sourceTree = "<group>"; };
+		BD71CA2721B027B7007F7C89 /* nabereznayaTMN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nabereznayaTMN.jpg; sourceTree = "<group>"; };
+		BD741B4F21CEB98E001BBC01 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BD7514E2216FACC80050126C /* mapStyleSilver.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mapStyleSilver.json; sourceTree = "<group>"; };
+		BD7E2C112188A6D800D8FA05 /* BestCategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestCategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD7E2C132188A93000D8FA05 /* BestCategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD7E2C152188AEA900D8FA05 /* BestCategorieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCategorieModel.swift; sourceTree = "<group>"; };
+		BD7F81E2219C583900D2BFE6 /* InterestingFactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingFactModel.swift; sourceTree = "<group>"; };
+		BD7F81E6219C5BB200D2BFE6 /* InterestFactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InterestFactCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD7F81E8219C63E300D2BFE6 /* InterestFactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestFactCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD8281BF21A9208F00FFD9B2 /* BestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTableViewCell.swift; sourceTree = "<group>"; };
+		BD83086621E475EC00691847 /* QPlaceDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPlaceDescriptionViewController.swift; sourceTree = "<group>"; };
+		BD83A3AE219890A500AF7FF0 /* SpotlightFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightFeatures.swift; sourceTree = "<group>"; };
+		BD8EB03321F729E3008AECA6 /* DetailedCollection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailedCollection.storyboard; sourceTree = "<group>"; };
+		BD90C2092178A88E000BA70D /* BestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestViewController.swift; sourceTree = "<group>"; };
+		BD90C20B2178A8E6000BA70D /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		BD90C20D2178A930000BA70D /* QuestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestsViewController.swift; sourceTree = "<group>"; };
+		BD90C20F2178ADFC000BA70D /* PlaceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD90C2112178B08F000BA70D /* PlaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD90C2142178CB3E000BA70D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		BD944F3F2154BD770069DA88 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		BD9C837B215AAACA00204668 /* cancel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel_icon.png; sourceTree = "<group>"; };
+		BD9DD44C21F6345000F45050 /* TimeTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableModel.swift; sourceTree = "<group>"; };
+		BDA8FF0F21D93A3B00841670 /* GradientViewFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewFiles.swift; sourceTree = "<group>"; };
+		BDBA503B217F8C0500F307D4 /* teatrKukol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = teatrKukol.jpg; path = ../../../photosForTyumen/teatrKukol.jpg; sourceTree = "<group>"; };
+		BDBA5041217F8C0600F307D4 /* dramTeatr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dramTeatr.jpg; path = ../../../photosForTyumen/dramTeatr.jpg; sourceTree = "<group>"; };
+		BDBA5052217F919800F307D4 /* aleksSad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aleksSad.jpg; path = ExploreTyumen/photosForTyumen/aleksSad.jpg; sourceTree = SOURCE_ROOT; };
+		BDBBBEBF2185F70300965954 /* QuestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestCollectionViewCell.xib; sourceTree = "<group>"; };
+		BDBBBEC12185FD9200965954 /* QuestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestCollectionViewCell.swift; sourceTree = "<group>"; };
+		BDBD208D2179EBD100EBD760 /* TypePlaceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypePlaceCollectionViewCell.xib; sourceTree = "<group>"; };
+		BDBD208F2179ECDF00EBD760 /* TypePlaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		BDBED0D321ECDC4D00AC54A5 /* BestCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCollectionViewLayout.swift; sourceTree = "<group>"; };
+		BDC8690F214FE2D600E3A53E /* QuestDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDetailedViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		BDC86911214FE4C900E3A53E /* QuestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestModel.swift; sourceTree = "<group>"; };
+		BDC86913214FF2EB00E3A53E /* TyumenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyumenApp.swift; sourceTree = "<group>"; };
+		BDC916AB21AC3A3A009F1B03 /* goryachieIstochnikiMain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goryachieIstochnikiMain.jpg; sourceTree = "<group>"; };
+		BDC9DF4021B97385009B6222 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		BDD1F3D9214DA1E600E0BDFB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BDD6A0692171227E00F0B158 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		BDD6A06A2171227E00F0B158 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		BDD6A06B2171227E00F0B158 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		BDD6A06C2171227E00F0B158 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BDD6A06D2171227E00F0B158 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		BDD6A06E2171227F00F0B158 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		BDD90D1D21A0654D00249B99 /* DetailedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedCollectionViewController.swift; sourceTree = "<group>"; };
+		BDE012202156A216004D5543 /* QuestNextPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestNextPlaceViewController.swift; sourceTree = "<group>"; };
+		BDE012222156A372004D5543 /* BackgroundLayerQuestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLayerQuestModel.swift; sourceTree = "<group>"; };
+		BDE012262156A635004D5543 /* QuestionForPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionForPlace.swift; sourceTree = "<group>"; };
+		BDE0862A214BB212008B6551 /* ExploreTyumen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreTyumen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE0862D214BB212008B6551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDE0862F214BB212008B6551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDE08632214BB212008B6551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE08635214BB212008B6551 /* ExploreTyumen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExploreTyumen.xcdatamodel; sourceTree = "<group>"; };
+		BDE0863A214BB214008B6551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDE0863C214BB214008B6551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE08643214BB3CD008B6551 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BDE42AB3219DD4B9004210B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDE56A0F215A23D60034728A /* EndQuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndQuestViewController.swift; sourceTree = "<group>"; };
+		BDE888AC2155498A00F3614E /* DetailedPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPlaceViewController.swift; sourceTree = "<group>"; };
+		BDF0D3852186F59F00A5C066 /* LoadingPlacesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPlacesService.swift; sourceTree = "<group>"; };
+		FCE6A2C38426E410C67183B3 /* Pods-Places Nearby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Places Nearby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Places Nearby/Pods-Places Nearby.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD08B2A821C0FD00001685D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B2AD21C0FD00001685D2 /* NotificationCenter.framework in Frameworks */,
+				BD08B2EF21C116C1001685D2 /* NetworkExtension.framework in Frameworks */,
+				BD08B2F121C116CF001685D2 /* MapKit.framework in Frameworks */,
+				0CEFB1D209EB4618174A63E0 /* Pods_Places_Nearby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE08627214BB212008B6551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD1F3DA214DA1E600E0BDFB /* MapKit.framework in Frameworks */,
+				1BE5C8F31A695FFCFD748C39 /* Pods_ExploreTyumen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DCC10A4C79ED34794F70094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A524B2B6775090805D99884 /* Pods-ExploreTyumen.debug.xcconfig */,
+				BB9BDC5FA3583C5D4B56AE4E /* Pods-ExploreTyumen.release.xcconfig */,
+				FCE6A2C38426E410C67183B3 /* Pods-Places Nearby.debug.xcconfig */,
+				665A0A2894B67381EE9BECD8 /* Pods-Places Nearby.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD0169ED21739DEC0072EC12 /* QuickActions */ = {
+			isa = PBXGroup;
+			children = (
+				BD0169EE21739E2F0072EC12 /* CollectionsViewController.swift */,
+				BD90C2092178A88E000BA70D /* BestViewController.swift */,
+				BD90C20B2178A8E6000BA70D /* PlacesViewController.swift */,
+				BD90C20D2178A930000BA70D /* QuestsViewController.swift */,
+			);
+			path = QuickActions;
+			sourceTree = "<group>";
+		};
+		BD03B6E121EF55B000FB528F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BDE08631214BB212008B6551 /* Main.storyboard */,
+				BD2DC69321E48F7D0040547D /* Quest.storyboard */,
+				BDE08639214BB214008B6551 /* LaunchScreen.storyboard */,
+				BD03B6E421EF612C00FB528F /* QuickSight.storyboard */,
+				BD1CBCEE21F23930005F19E5 /* DetailedPlace.storyboard */,
+				BD8EB03321F729E3008AECA6 /* DetailedCollection.storyboard */,
+				92C87CB7222A71A200F8EA9E /* QuestDetailed.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BD08B2AE21C0FD00001685D2 /* Places Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B2F021C116C1001685D2 /* Places Nearby.entitlements */,
+				BD08B2AF21C0FD00001685D2 /* TodayViewController.swift */,
+				BD08B2B121C0FD00001685D2 /* MainInterface.storyboard */,
+				BD08B2DB21C0FF5D001685D2 /* GoogleService-Info.plist */,
+				BD08B2B421C0FD00001685D2 /* Info.plist */,
+			);
+			path = "Places Nearby";
+			sourceTree = "<group>";
+		};
+		BD1CABD2214BD0B900A2BEFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D071E21D951F600F7BB24 /* TenThings */,
+				BDAFCDF1217B088B00060B7F /* Animations */,
+				BD5E67AF215F782800F7C9C2 /* UIFiles */,
+				BD944F412154C0F10069DA88 /* Places */,
+				BD59937A2153FAAF003FCBFA /* Icons */,
+				BD1CABD3214BD0C500A2BEFD /* Front */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD1CABD3214BD0C500A2BEFD /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				BD1CABD4214BD0E300A2BEFD /* nabereznaya1.jpg */,
+				BD1CABD6214BD25000A2BEFD /* history1.png */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+		BD3281AD215FB21E00F9FE9B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD3281AE215FB23B00F9FE9B /* RobotoSlab-Bold.ttf */,
+				BD3281B0215FB23B00F9FE9B /* RobotoSlab-Light.ttf */,
+				BD3281AF215FB23B00F9FE9B /* RobotoSlab-Regular.ttf */,
+				BD3281B1215FB23C00F9FE9B /* RobotoSlab-Thin.ttf */,
+				BDD6A06D2171227E00F0B158 /* Roboto-Black.ttf */,
+				BDD6A06A2171227E00F0B158 /* Roboto-Bold.ttf */,
+				BDD6A06B2171227E00F0B158 /* Roboto-Light.ttf */,
+				BDD6A06E2171227F00F0B158 /* Roboto-Medium.ttf */,
+				BDD6A06C2171227E00F0B158 /* Roboto-Regular.ttf */,
+				BDD6A0692171227E00F0B158 /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BD45857421722A8500F744A3 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				BD45857521722EF400F744A3 /* NearUserCollectionViewCell.xib */,
+				BD0169E72173714C0072EC12 /* BestPlacesCollectionViewCell.xib */,
+				BD90C20F2178ADFC000BA70D /* PlaceCollectionViewCell.xib */,
+				BDBD208D2179EBD100EBD760 /* TypePlaceCollectionViewCell.xib */,
+				BDBBBEBF2185F70300965954 /* QuestCollectionViewCell.xib */,
+				BD7E2C112188A6D800D8FA05 /* BestCategoriesCollectionViewCell.xib */,
+				BD7F81E6219C5BB200D2BFE6 /* InterestFactCollectionViewCell.xib */,
+				BD1094E1219EF94300B4AA68 /* CollectiongroupCollectionViewCell.xib */,
+				BD0A127F21AC118600738C55 /* ThingsThatShouldBeDoneCollectionViewCell.xib */,
+				BD0A128721AC1CBF00738C55 /* ThingsToDoneMainCollectionViewCell.xib */,
+				BD26BE5121EB68EE00896908 /* PhotoCollectionViewCell.xib */,
+				BD35C64421F8A6E300DA268D /* CollectionPlaceCollectionViewCell.xib */,
+				92D421A92217FAEC00595AFF /* BestCardIntroCollectionViewCell.xib */,
+				92296BEE221894C20087B7A5 /* LittlePlaceCollectionViewCell.xib */,
+				92296BF222189A8E0087B7A5 /* BestsLinkCollectionViewCell.xib */,
+				92DC2A56222061DA00DBD7E5 /* PlaceInBestCollectionViewCell.xib */,
+				92157468223196210063007F /* StatisticsInQuestCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		BD45857721722F4200F744A3 /* CellFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BD45857821722F7600F744A3 /* NearUserCollectionViewCell.swift */,
+				BD0169E9217374590072EC12 /* BestPlacesCollectionViewCell.swift */,
+				BD90C2112178B08F000BA70D /* PlaceCollectionViewCell.swift */,
+				BDBD208F2179ECDF00EBD760 /* TypePlaceCollectionViewCell.swift */,
+				BDBBBEC12185FD9200965954 /* QuestCollectionViewCell.swift */,
+				BD7E2C132188A93000D8FA05 /* BestCategoriesCollectionViewCell.swift */,
+				BD7F81E8219C63E300D2BFE6 /* InterestFactCollectionViewCell.swift */,
+				BD1094E3219F017500B4AA68 /* CollectiongroupCollectionViewCell.swift */,
+				BD0A128121AC130200738C55 /* ThingsThatShouldBeDoneCollectionViewCell.swift */,
+				BD0A128921AC1E0500738C55 /* ThingsToDoneMainCollectionViewCell.swift */,
+				BD26BE5321EB692100896908 /* PhotoCollectionViewCell.swift */,
+				BD35C64621F8AB0D00DA268D /* CollectionPlaceCollectionViewCell.swift */,
+				92D421AB2217FC7600595AFF /* BestCardIntroCollectionViewCell.swift */,
+				92296BF0221896EA0087B7A5 /* LittlePlaceCollectionViewCell.swift */,
+				92296BF422189A9D0087B7A5 /* BestsLinkCollectionViewCell.swift */,
+				92DC2A58222061ED00DBD7E5 /* PlaceInBestCollectionViewCell.swift */,
+				9215746A2231963C0063007F /* StatisticsInQuestCell.swift */,
+			);
+			path = CellFiles;
+			sourceTree = "<group>";
+		};
+		BD4D071E21D951F600F7BB24 /* TenThings */ = {
+			isa = PBXGroup;
+			children = (
+				BD1DEF4A21E61399004B8970 /* gorIstoch.jpg */,
+				BD1DEF4C21E613BB004B8970 /* medGorod.jpg */,
+				BD1DEF5A21E61499004B8970 /* dramTheatre.jpg */,
+				BD1DEF5821E61499004B8970 /* edaa.jpg */,
+				BD1DEF5921E61499004B8970 /* kolesoObozreniya.jpg */,
+				BD4D072321D9557700F7BB24 /* mainTenT.png */,
+				BD1DEF4E21E613DC004B8970 /* prirodaSibiri.jpg */,
+				BD1DEF5521E61451004B8970 /* muzei.jpg */,
+				BD1DEF5421E61451004B8970 /* nabereznaya.jpg */,
+				BD1DEF5021E613F8004B8970 /* istorGorod.jpg */,
+				BD4D071F21D9520B00F7BB24 /* goryachieIstochniki.png */,
+				BD1DEF5221E61419004B8970 /* filarmoniya.jpg */,
+				BD4D072121D9524A00F7BB24 /* history.png */,
+			);
+			path = TenThings;
+			sourceTree = "<group>";
+		};
+		BD59937A2153FAAF003FCBFA /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BD9C837B215AAACA00204668 /* cancel_icon.png */,
+				BD3408FD2156870700C95FFE /* dismiss_icon.png */,
+				BD59937B2153FABF003FCBFA /* cancelIcon.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		BD5E67AF215F782800F7C9C2 /* UIFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9242614B221C0C1500350260 /* frontPhoto.png */,
+				92BB636522197C7A00867A5F /* introBack.png */,
+				BD5E67B0215F783F00F7C9C2 /* RoundShadowView.swift */,
+				BDA8FF0F21D93A3B00841670 /* GradientViewFiles.swift */,
+			);
+			path = UIFiles;
+			sourceTree = "<group>";
+		};
+		BD60470C21D25A6E00356429 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				BD60470E21D25A9B00356429 /* XIBs */,
+				BD60470D21D25A8100356429 /* CellFiles */,
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
+		BD60470D21D25A8100356429 /* CellFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BD60470F21D25B8600356429 /* BestFewTableViewCell.swift */,
+			);
+			path = CellFiles;
+			sourceTree = "<group>";
+		};
+		BD60470E21D25A9B00356429 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		BD83086321E471FA00691847 /* QuestVC */ = {
+			isa = PBXGroup;
+			children = (
+				BD83086621E475EC00691847 /* QPlaceDescriptionViewController.swift */,
+				BDE012202156A216004D5543 /* QuestNextPlaceViewController.swift */,
+				BD5284EB21E67593003C3CEF /* QQuestionViewController.swift */,
+				BD168ADC21E7593600A7CE2F /* QAfterQuestionViewController.swift */,
+			);
+			path = QuestVC;
+			sourceTree = "<group>";
+		};
+		BD944F412154C0F10069DA88 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				BD944F442154C13D0069DA88 /* Images */,
+				BD944F422154C0FF0069DA88 /* MainImages */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		BD944F422154C0FF0069DA88 /* MainImages */ = {
+			isa = PBXGroup;
+			children = (
+				BD0A128B21AC220D00738C55 /* goryachieIstochniki.jpg */,
+				BDBA5052217F919800F307D4 /* aleksSad.jpg */,
+				BD71CA2721B027B7007F7C89 /* nabereznayaTMN.jpg */,
+				BD31D31721863B4100AFE86A /* tumMuzeiCompl.jpg */,
+				BDBA5041217F8C0600F307D4 /* dramTeatr.jpg */,
+				BDBA503B217F8C0500F307D4 /* teatrKukol.jpg */,
+				BDC916AB21AC3A3A009F1B03 /* goryachieIstochnikiMain.jpg */,
+			);
+			path = MainImages;
+			sourceTree = "<group>";
+		};
+		BD944F442154C13D0069DA88 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BDAFCDF1217B088B00060B7F /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		BDD1F3D8214DA1E600E0BDFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD08B2EE21C116C1001685D2 /* NetworkExtension.framework */,
+				BD08B2D821C0FED9001685D2 /* leveldb.framework */,
+				BD08B2D621C0FED2001685D2 /* GTMSessionFetcher.framework */,
+				BD08B2D421C0FECD001685D2 /* FirebaseStorage.framework */,
+				BD08B2D221C0FEC3001685D2 /* FirebaseDatabase.framework */,
+				BD08B2D021C0FEBF001685D2 /* FirebaseCore.framework */,
+				BD08B2BB21C0FE57001685D2 /* Alamofire.framework */,
+				BD08B2BD21C0FE57001685D2 /* FirebaseCore.framework */,
+				BD08B2BF21C0FE57001685D2 /* FirebaseDatabase.framework */,
+				BD08B2C121C0FE57001685D2 /* FirebaseStorage.framework */,
+				BD08B2C321C0FE57001685D2 /* GoogleUtilities.framework */,
+				BD08B2C521C0FE57001685D2 /* GTMSessionFetcher.framework */,
+				BD08B2C721C0FE57001685D2 /* leveldb.framework */,
+				BD08B2C921C0FE57001685D2 /* Lottie.framework */,
+				BD08B2CB21C0FE57001685D2 /* MapKitGoogleStyler.framework */,
+				BD08B2CD21C0FE57001685D2 /* nanopb.framework */,
+				BDD1F3D9214DA1E600E0BDFB /* MapKit.framework */,
+				3FA96A6DA05B17CD0E9D1948 /* Pods_ExploreTyumen.framework */,
+				BD29349321A9B89D003FB57E /* UserNotifications.framework */,
+				BD29349521A9B89D003FB57E /* UserNotificationsUI.framework */,
+				BD08B2AC21C0FD00001685D2 /* NotificationCenter.framework */,
+				4B27B8CACA6516417B5D38CA /* Pods_Places_Nearby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDE08621214BB212008B6551 = {
+			isa = PBXGroup;
+			children = (
+				BDE0862C214BB212008B6551 /* ExploreTyumen */,
+				BD08B2AE21C0FD00001685D2 /* Places Nearby */,
+				BDE0862B214BB212008B6551 /* Products */,
+				BDD1F3D8214DA1E600E0BDFB /* Frameworks */,
+				4DCC10A4C79ED34794F70094 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE0862B214BB212008B6551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE0862A214BB212008B6551 /* ExploreTyumen.app */,
+				BD08B2AB21C0FD00001685D2 /* Places Nearby.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE0862C214BB212008B6551 /* ExploreTyumen */ = {
+			isa = PBXGroup;
+			children = (
+				BDE0864B214BC0AA008B6551 /* VC */,
+				BDE08648214BBCC9008B6551 /* Models */,
+				BDE08642214BB3B4008B6551 /* BackendFiles */,
+				BDE08645214BB3FA008B6551 /* CollcectionViews */,
+				BD03B6E121EF55B000FB528F /* Storyboards */,
+				BD3281AD215FB21E00F9FE9B /* Fonts */,
+				BD1CABD2214BD0B900A2BEFD /* Resources */,
+				BD60470C21D25A6E00356429 /* TableViews */,
+				BD0D75FE2180549900E61FFA /* ExploreTyumen.entitlements */,
+				BDE42AB3219DD4B9004210B8 /* Assets.xcassets */,
+				BDE0863C214BB214008B6551 /* Info.plist */,
+				BD31C32921B688150047C230 /* GoogleService-Info.plist */,
+				BDE08634214BB212008B6551 /* ExploreTyumen.xcdatamodeld */,
+				BD7514E2216FACC80050126C /* mapStyleSilver.json */,
+				BD0169EB2173818E0072EC12 /* mapStyleRetro.json */,
+				BD8281BF21A9208F00FFD9B2 /* BestTableViewCell.swift */,
+			);
+			path = ExploreTyumen;
+			sourceTree = "<group>";
+		};
+		BDE08642214BB3B4008B6551 /* BackendFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BDE0862D214BB212008B6551 /* AppDelegate.swift */,
+				BD31C32B21B689340047C230 /* FirebaseMethods.swift */,
+				BDE08643214BB3CD008B6551 /* Extensions.swift */,
+				BDC86913214FF2EB00E3A53E /* TyumenApp.swift */,
+				BD90C2142178CB3E000BA70D /* Enums.swift */,
+				BD0D75FF2180E26100E61FFA /* BackgroundLocationNotifyies.swift */,
+				BDF0D3852186F59F00A5C066 /* LoadingPlacesService.swift */,
+				BD83A3AE219890A500AF7FF0 /* SpotlightFeatures.swift */,
+				BDC9DF4021B97385009B6222 /* Connectivity.swift */,
+			);
+			path = BackendFiles;
+			sourceTree = "<group>";
+		};
+		BDE08645214BB3FA008B6551 /* CollcectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				BD45857721722F4200F744A3 /* CellFiles */,
+				BD45857421722A8500F744A3 /* XIBs */,
+				BDBED0D321ECDC4D00AC54A5 /* BestCollectionViewLayout.swift */,
+			);
+			path = CollcectionViews;
+			sourceTree = "<group>";
+		};
+		BDE08648214BBCC9008B6551 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDC86911214FE4C900E3A53E /* QuestModel.swift */,
+				BD944F3F2154BD770069DA88 /* PlaceModel.swift */,
+				BDE012222156A372004D5543 /* BackgroundLayerQuestModel.swift */,
+				BDE012262156A635004D5543 /* QuestionForPlace.swift */,
+				BD6055FF2179AD53009783C3 /* GroupPlaceModel.swift */,
+				BD7E2C152188AEA900D8FA05 /* BestCategorieModel.swift */,
+				BD7F81E2219C583900D2BFE6 /* InterestingFactModel.swift */,
+				BD1094DF219EF41A00B4AA68 /* CollectionModel.swift */,
+				BD0A128321AC13F700738C55 /* ThingModel.swift */,
+				BD60470821D2329E00356429 /* RealmCoreClasses.swift */,
+				BD23CF5D21D77B7A00555954 /* QuestDescriptionModel.swift */,
+				BD03B6E221EF562600FB528F /* QuickSightModel.swift */,
+				BD9DD44C21F6345000F45050 /* TimeTableModel.swift */,
+				926253A8221435C7007EED1E /* DeepIntoHistoryModel.swift */,
+				92D421AD2217FD1600595AFF /* BestCardIntroModel.swift */,
+				929E836E2233FECD00E48360 /* QuestStatisticModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDE0864B214BC0AA008B6551 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BD83086321E471FA00691847 /* QuestVC */,
+				BD0169ED21739DEC0072EC12 /* QuickActions */,
+				BDE0862F214BB212008B6551 /* ViewController.swift */,
+				BDC8690F214FE2D600E3A53E /* QuestDetailedViewController.swift */,
+				BDE888AC2155498A00F3614E /* DetailedPlaceViewController.swift */,
+				BDE56A0F215A23D60034728A /* EndQuestViewController.swift */,
+				BDD90D1D21A0654D00249B99 /* DetailedCollectionViewController.swift */,
+				BD0A128521AC16B100738C55 /* TenThongsToDoViewController.swift */,
+				BD741B4F21CEB98E001BBC01 /* SearchViewController.swift */,
+				BD60470A21D2383400356429 /* FirstScreenViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD08B2AA21C0FD00001685D2 /* Places Nearby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD08B2BA21C0FD00001685D2 /* Build configuration list for PBXNativeTarget "Places Nearby" */;
+			buildPhases = (
+				FCF3473820E10353DF7E054A /* [CP] Check Pods Manifest.lock */,
+				BD08B2A721C0FD00001685D2 /* Sources */,
+				BD08B2A821C0FD00001685D2 /* Frameworks */,
+				BD08B2A921C0FD00001685D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Places Nearby";
+			productName = "Places Nearby";
+			productReference = BD08B2AB21C0FD00001685D2 /* Places Nearby.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BDE08629214BB212008B6551 /* ExploreTyumen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE0863F214BB214008B6551 /* Build configuration list for PBXNativeTarget "ExploreTyumen" */;
+			buildPhases = (
+				069BA8AAF85AF03BEF8B4381 /* [CP] Check Pods Manifest.lock */,
+				BDE08626214BB212008B6551 /* Sources */,
+				BDE08627214BB212008B6551 /* Frameworks */,
+				BDE08628214BB212008B6551 /* Resources */,
+				85C7FBD1B442F6A62AAADE29 /* [CP] Embed Pods Frameworks */,
+				BD2934A421A9B89D003FB57E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD08B2B621C0FD00001685D2 /* PBXTargetDependency */,
+			);
+			name = ExploreTyumen;
+			productName = ExploreTyumen;
+			productReference = BDE0862A214BB212008B6551 /* ExploreTyumen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE08622214BB212008B6551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Глеб Завьялов";
+				TargetAttributes = {
+					BD08B2AA21C0FD00001685D2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					BDE08629214BB212008B6551 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BDE08625214BB212008B6551 /* Build configuration list for PBXProject "ExploreTyumen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE08621214BB212008B6551;
+			productRefGroup = BDE0862B214BB212008B6551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE08629214BB212008B6551 /* ExploreTyumen */,
+				BD08B2AA21C0FD00001685D2 /* Places Nearby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD08B2A921C0FD00001685D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B2FA21C11A4D001685D2 /* Roboto-Medium.ttf in Resources */,
+				BD08B2FB21C11A50001685D2 /* Roboto-Regular.ttf in Resources */,
+				BD08B2F421C11A3E001685D2 /* RobotoSlab-Light.ttf in Resources */,
+				BD08B2F521C11A40001685D2 /* RobotoSlab-Regular.ttf in Resources */,
+				BD08B2DC21C0FF5D001685D2 /* GoogleService-Info.plist in Resources */,
+				BD08B2B321C0FD00001685D2 /* MainInterface.storyboard in Resources */,
+				BD08B2F721C11A45001685D2 /* Roboto-Black.ttf in Resources */,
+				BD08B2F621C11A43001685D2 /* RobotoSlab-Thin.ttf in Resources */,
+				BD08B2FC21C11A52001685D2 /* Roboto-Thin.ttf in Resources */,
+				BD08B2F821C11A48001685D2 /* Roboto-Bold.ttf in Resources */,
+				BD08B2F321C11A3B001685D2 /* RobotoSlab-Bold.ttf in Resources */,
+				BD08B2F921C11A4B001685D2 /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE08628214BB212008B6551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBD208E2179EBD100EBD760 /* TypePlaceCollectionViewCell.xib in Resources */,
+				BDE42AB4219DD4BB004210B8 /* Assets.xcassets in Resources */,
+				BDBA5042217F8C0600F307D4 /* teatrKukol.jpg in Resources */,
+				BD1DEF4F21E613DC004B8970 /* prirodaSibiri.jpg in Resources */,
+				BD59937C2153FABF003FCBFA /* cancelIcon.png in Resources */,
+				BD1CABD5214BD0E300A2BEFD /* nabereznaya1.jpg in Resources */,
+				BD0169EC2173819F0072EC12 /* mapStyleRetro.json in Resources */,
+				BDD6A0722171227F00F0B158 /* Roboto-Regular.ttf in Resources */,
+				BDD6A0702171227F00F0B158 /* Roboto-Bold.ttf in Resources */,
+				BD0169E82173714C0072EC12 /* BestPlacesCollectionViewCell.xib in Resources */,
+				BD1DEF5121E613F8004B8970 /* istorGorod.jpg in Resources */,
+				BDC916AC21AC3A3A009F1B03 /* goryachieIstochnikiMain.jpg in Resources */,
+				BD1CABD7214BD25000A2BEFD /* history1.png in Resources */,
+				92DC2A57222061DA00DBD7E5 /* PlaceInBestCollectionViewCell.xib in Resources */,
+				BDD6A0742171227F00F0B158 /* Roboto-Medium.ttf in Resources */,
+				BD71CA2821B027B7007F7C89 /* nabereznayaTMN.jpg in Resources */,
+				BD1CBCEF21F23930005F19E5 /* DetailedPlace.storyboard in Resources */,
+				BD7E2C122188A6D800D8FA05 /* BestCategoriesCollectionViewCell.xib in Resources */,
+				BD3281B2215FB23C00F9FE9B /* RobotoSlab-Bold.ttf in Resources */,
+				9242614C221C0C1500350260 /* frontPhoto.png in Resources */,
+				BD1DEF5621E61452004B8970 /* nabereznaya.jpg in Resources */,
+				BDE0863B214BB214008B6551 /* LaunchScreen.storyboard in Resources */,
+				BD8EB03421F729E3008AECA6 /* DetailedCollection.storyboard in Resources */,
+				BD3281B3215FB23C00F9FE9B /* RobotoSlab-Regular.ttf in Resources */,
+				92BB636622197C7B00867A5F /* introBack.png in Resources */,
+				92296BF322189A8E0087B7A5 /* BestsLinkCollectionViewCell.xib in Resources */,
+				BD7514E3216FAEFA0050126C /* mapStyleSilver.json in Resources */,
+				92D421AA2217FAEC00595AFF /* BestCardIntroCollectionViewCell.xib in Resources */,
+				BD1DEF4D21E613BB004B8970 /* medGorod.jpg in Resources */,
+				BD0A128C21AC220D00738C55 /* goryachieIstochniki.jpg in Resources */,
+				BD1DEF5C21E6149A004B8970 /* kolesoObozreniya.jpg in Resources */,
+				BD7F81E7219C5BB200D2BFE6 /* InterestFactCollectionViewCell.xib in Resources */,
+				BDD6A0732171227F00F0B158 /* Roboto-Black.ttf in Resources */,
+				BD4D072021D9520B00F7BB24 /* goryachieIstochniki.png in Resources */,
+				92157469223196210063007F /* StatisticsInQuestCell.xib in Resources */,
+				BDBBBEC02185F70300965954 /* QuestCollectionViewCell.xib in Resources */,
+				BD03B6E521EF612C00FB528F /* QuickSight.storyboard in Resources */,
+				BD1DEF5321E61419004B8970 /* filarmoniya.jpg in Resources */,
+				BD90C2102178ADFC000BA70D /* PlaceCollectionViewCell.xib in Resources */,
+				BD1DEF5D21E6149A004B8970 /* dramTheatre.jpg in Resources */,
+				BD31C32A21B688160047C230 /* GoogleService-Info.plist in Resources */,
+				BD31D31821863B4100AFE86A /* tumMuzeiCompl.jpg in Resources */,
+				BDBA5058217F919800F307D4 /* aleksSad.jpg in Resources */,
+				BDD6A0712171227F00F0B158 /* Roboto-Light.ttf in Resources */,
+				92C87CB8222A71A200F8EA9E /* QuestDetailed.storyboard in Resources */,
+				BD9C837C215AAACA00204668 /* cancel_icon.png in Resources */,
+				BD4D072421D9557700F7BB24 /* mainTenT.png in Resources */,
+				BD1DEF4B21E61399004B8970 /* gorIstoch.jpg in Resources */,
+				92296BEF221894C20087B7A5 /* LittlePlaceCollectionViewCell.xib in Resources */,
+				BD1094E2219EF94300B4AA68 /* CollectiongroupCollectionViewCell.xib in Resources */,
+				BD0A128821AC1CBF00738C55 /* ThingsToDoneMainCollectionViewCell.xib in Resources */,
+				BD0A128021AC118600738C55 /* ThingsThatShouldBeDoneCollectionViewCell.xib in Resources */,
+				BD3281B4215FB23C00F9FE9B /* RobotoSlab-Light.ttf in Resources */,
+				BD3281B5215FB23C00F9FE9B /* RobotoSlab-Thin.ttf in Resources */,
+				BD1DEF5B21E6149A004B8970 /* edaa.jpg in Resources */,
+				BD45857621722EF400F744A3 /* NearUserCollectionViewCell.xib in Resources */,
+				BDBA5048217F8C0600F307D4 /* dramTeatr.jpg in Resources */,
+				BDE08633214BB212008B6551 /* Main.storyboard in Resources */,
+				BD4D072221D9524A00F7BB24 /* history.png in Resources */,
+				BD2DC69421E48F7D0040547D /* Quest.storyboard in Resources */,
+				BDD6A06F2171227F00F0B158 /* Roboto-Thin.ttf in Resources */,
+				BD26BE5221EB68EE00896908 /* PhotoCollectionViewCell.xib in Resources */,
+				BD1DEF5721E61452004B8970 /* muzei.jpg in Resources */,
+				BD3408FE2156870900C95FFE /* dismiss_icon.png in Resources */,
+				BD35C64521F8A6E300DA268D /* CollectionPlaceCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069BA8AAF85AF03BEF8B4381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExploreTyumen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C7FBD1B442F6A62AAADE29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExploreTyumen/Pods-ExploreTyumen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MapKitGoogleStyler/MapKitGoogleStyler.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapKitGoogleStyler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExploreTyumen/Pods-ExploreTyumen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF3473820E10353DF7E054A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Places Nearby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD08B2A721C0FD00001685D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08B2B021C0FD00001685D2 /* TodayViewController.swift in Sources */,
+				BD08B2E921C1045E001685D2 /* BestCategoriesCollectionViewCell.swift in Sources */,
+				BD08B2E121C103C8001685D2 /* Connectivity.swift in Sources */,
+				BD08B2E221C103EA001685D2 /* CollectionModel.swift in Sources */,
+				BD08B2E521C10424001685D2 /* InterestingFactModel.swift in Sources */,
+				BD08B2E621C1042E001685D2 /* ThingModel.swift in Sources */,
+				BD08B2E021C1033B001685D2 /* PlaceModel.swift in Sources */,
+				BD9DD44E21F638C500F45050 /* TimeTableModel.swift in Sources */,
+				BD08B2E321C103EE001685D2 /* Enums.swift in Sources */,
+				BD08B2E721C10447001685D2 /* QuestionForPlace.swift in Sources */,
+				BD08B2F221C119EC001685D2 /* Extensions.swift in Sources */,
+				BD08B2E421C10405001685D2 /* BestCategorieModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE08626214BB212008B6551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0169EF21739E2F0072EC12 /* CollectionsViewController.swift in Sources */,
+				BDE012232156A372004D5543 /* BackgroundLayerQuestModel.swift in Sources */,
+				BD35C64721F8AB0D00DA268D /* CollectionPlaceCollectionViewCell.swift in Sources */,
+				BD1094E4219F017500B4AA68 /* CollectiongroupCollectionViewCell.swift in Sources */,
+				BD168ADD21E7593600A7CE2F /* QAfterQuestionViewController.swift in Sources */,
+				BD45857921722F7600F744A3 /* NearUserCollectionViewCell.swift in Sources */,
+				BDBED0D421ECDC4D00AC54A5 /* BestCollectionViewLayout.swift in Sources */,
+				BDC86912214FE4C900E3A53E /* QuestModel.swift in Sources */,
+				92296BF1221896EA0087B7A5 /* LittlePlaceCollectionViewCell.swift in Sources */,
+				BD0A128221AC130200738C55 /* ThingsThatShouldBeDoneCollectionViewCell.swift in Sources */,
+				BD90C2122178B08F000BA70D /* PlaceCollectionViewCell.swift in Sources */,
+				BD7E2C162188AEA900D8FA05 /* BestCategorieModel.swift in Sources */,
+				BD6056002179AD53009783C3 /* GroupPlaceModel.swift in Sources */,
+				BDA8FF1021D93A3B00841670 /* GradientViewFiles.swift in Sources */,
+				BD90C20A2178A88E000BA70D /* BestViewController.swift in Sources */,
+				BD0D76002180E26100E61FFA /* BackgroundLocationNotifyies.swift in Sources */,
+				BDE888AD2155498A00F3614E /* DetailedPlaceViewController.swift in Sources */,
+				BD7F81E3219C583900D2BFE6 /* InterestingFactModel.swift in Sources */,
+				BD60471021D25B8600356429 /* BestFewTableViewCell.swift in Sources */,
+				BD90C20E2178A930000BA70D /* QuestsViewController.swift in Sources */,
+				BD31C32C21B689340047C230 /* FirebaseMethods.swift in Sources */,
+				9215746B2231963C0063007F /* StatisticsInQuestCell.swift in Sources */,
+				BDBBBEC22185FD9200965954 /* QuestCollectionViewCell.swift in Sources */,
+				BD26BE5421EB692100896908 /* PhotoCollectionViewCell.swift in Sources */,
+				BD7F81E9219C63E300D2BFE6 /* InterestFactCollectionViewCell.swift in Sources */,
+				92296BF522189A9D0087B7A5 /* BestsLinkCollectionViewCell.swift in Sources */,
+				BDC86910214FE2D600E3A53E /* QuestDetailedViewController.swift in Sources */,
+				BD944F402154BD770069DA88 /* PlaceModel.swift in Sources */,
+				BD0A128621AC16B100738C55 /* TenThongsToDoViewController.swift in Sources */,
+				BD83A3AF219890A500AF7FF0 /* SpotlightFeatures.swift in Sources */,
+				BD9DD44D21F6345000F45050 /* TimeTableModel.swift in Sources */,
+				BDC86914214FF2EB00E3A53E /* TyumenApp.swift in Sources */,
+				BD23CF5E21D77B7A00555954 /* QuestDescriptionModel.swift in Sources */,
+				BD90C20C2178A8E6000BA70D /* PlacesViewController.swift in Sources */,
+				BD5284EC21E67593003C3CEF /* QQuestionViewController.swift in Sources */,
+				BD83086721E475EC00691847 /* QPlaceDescriptionViewController.swift in Sources */,
+				BDE08636214BB212008B6551 /* ExploreTyumen.xcdatamodeld in Sources */,
+				BD8281C021A9208F00FFD9B2 /* BestTableViewCell.swift in Sources */,
+				BDE012212156A216004D5543 /* QuestNextPlaceViewController.swift in Sources */,
+				BD7E2C142188A93000D8FA05 /* BestCategoriesCollectionViewCell.swift in Sources */,
+				926253A9221435C7007EED1E /* DeepIntoHistoryModel.swift in Sources */,
+				BD5E67B1215F783F00F7C9C2 /* RoundShadowView.swift in Sources */,
+				BD0A128A21AC1E0500738C55 /* ThingsToDoneMainCollectionViewCell.swift in Sources */,
+				BDE012272156A635004D5543 /* QuestionForPlace.swift in Sources */,
+				BD90C2152178CB3E000BA70D /* Enums.swift in Sources */,
+				BD0169EA217374590072EC12 /* BestPlacesCollectionViewCell.swift in Sources */,
+				BDBD20902179ECDF00EBD760 /* TypePlaceCollectionViewCell.swift in Sources */,
+				929E836F2233FECD00E48360 /* QuestStatisticModel.swift in Sources */,
+				BDE56A10215A23D60034728A /* EndQuestViewController.swift in Sources */,
+				92D421AC2217FC7600595AFF /* BestCardIntroCollectionViewCell.swift in Sources */,
+				BDF0D3862186F59F00A5C066 /* LoadingPlacesService.swift in Sources */,
+				BD0A128421AC13F700738C55 /* ThingModel.swift in Sources */,
+				BD1094E0219EF41A00B4AA68 /* CollectionModel.swift in Sources */,
+				BD60470B21D2383400356429 /* FirstScreenViewController.swift in Sources */,
+				BD741B5021CEB98E001BBC01 /* SearchViewController.swift in Sources */,
+				BD03B6E321EF562600FB528F /* QuickSightModel.swift in Sources */,
+				BDD90D1E21A0654D00249B99 /* DetailedCollectionViewController.swift in Sources */,
+				BDC9DF4121B97385009B6222 /* Connectivity.swift in Sources */,
+				BDE08630214BB212008B6551 /* ViewController.swift in Sources */,
+				BD60470921D2329E00356429 /* RealmCoreClasses.swift in Sources */,
+				92D421AE2217FD1600595AFF /* BestCardIntroModel.swift in Sources */,
+				92DC2A59222061ED00DBD7E5 /* PlaceInBestCollectionViewCell.swift in Sources */,
+				BDE0862E214BB212008B6551 /* AppDelegate.swift in Sources */,
+				BDE08644214BB3CD008B6551 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD08B2B621C0FD00001685D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD08B2AA21C0FD00001685D2 /* Places Nearby */;
+			targetProxy = BD08B2B521C0FD00001685D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD08B2B121C0FD00001685D2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD08B2B221C0FD00001685D2 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE08631214BB212008B6551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE08632214BB212008B6551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE08639214BB214008B6551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE0863A214BB214008B6551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD08B2B821C0FD00001685D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE6A2C38426E410C67183B3 /* Pods-Places Nearby.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Places Nearby/Places Nearby.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPM5Z76U49;
+				INFOPLIST_FILE = "Places Nearby/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GlebZavyalov.Tyumen.Places-Nearby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD08B2B921C0FD00001685D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 665A0A2894B67381EE9BECD8 /* Pods-Places Nearby.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Places Nearby/Places Nearby.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPM5Z76U49;
+				INFOPLIST_FILE = "Places Nearby/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GlebZavyalov.Tyumen.Places-Nearby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDE0863D214BB214008B6551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		BDE0863E214BB214008B6551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE08640214BB214008B6551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A524B2B6775090805D99884 /* Pods-ExploreTyumen.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExploreTyumen/ExploreTyumen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPM5Z76U49;
+				INFOPLIST_FILE = ExploreTyumen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GlebZavyalov.Tyumen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BDE08641214BB214008B6551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9BDC5FA3583C5D4B56AE4E /* Pods-ExploreTyumen.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExploreTyumen/ExploreTyumen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPM5Z76U49;
+				INFOPLIST_FILE = ExploreTyumen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GlebZavyalov.Tyumen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD08B2BA21C0FD00001685D2 /* Build configuration list for PBXNativeTarget "Places Nearby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD08B2B821C0FD00001685D2 /* Debug */,
+				BD08B2B921C0FD00001685D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE08625214BB212008B6551 /* Build configuration list for PBXProject "ExploreTyumen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE0863D214BB214008B6551 /* Debug */,
+				BDE0863E214BB214008B6551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE0863F214BB214008B6551 /* Build configuration list for PBXNativeTarget "ExploreTyumen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE08640214BB214008B6551 /* Debug */,
+				BDE08641214BB214008B6551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDE08634214BB212008B6551 /* ExploreTyumen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDE08635214BB212008B6551 /* ExploreTyumen.xcdatamodel */,
+			);
+			currentVersion = BDE08635214BB212008B6551 /* ExploreTyumen.xcdatamodel */;
+			path = ExploreTyumen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDE08622214BB212008B6551 /* Project object */;
+}

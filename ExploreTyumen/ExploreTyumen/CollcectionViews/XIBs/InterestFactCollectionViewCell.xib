@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.43"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InterestFactCollectionViewCell" id="KG1-qb-4tM" customClass="InterestFactCollectionViewCell" customModule="ExploreTyumen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="184"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="184"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qif-JO-jbM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="184"/>
+                        <subviews>
+                            <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibi-Pa-shb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Литературный бульвар" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdP-OZ-Ssq">
+                                        <rect key="frame" x="13" y="8" width="230.5" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="rIu-Om-AzJ"/>
+                                            <constraint firstAttribute="width" constant="230.5" id="wnY-f2-tz6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qfX-5O-nyk">
+                                        <rect key="frame" x="253.5" y="12" width="53.5" height="24"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Факт" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhZ-Y7-jcR">
+                                                <rect key="frame" x="10" y="4" width="33.5" height="16"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.82352941180000006" green="0.23921568630000001" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="HhZ-Y7-jcR" firstAttribute="top" secondItem="qfX-5O-nyk" secondAttribute="top" constant="4" id="10M-pn-MVl"/>
+                                            <constraint firstAttribute="height" constant="24" id="L02-90-tBO"/>
+                                            <constraint firstItem="HhZ-Y7-jcR" firstAttribute="centerX" secondItem="qfX-5O-nyk" secondAttribute="centerX" id="dhX-Lj-3OC"/>
+                                            <constraint firstAttribute="width" constant="53.5" id="iez-IS-BEx"/>
+                                            <constraint firstItem="HhZ-Y7-jcR" firstAttribute="centerY" secondItem="qfX-5O-nyk" secondAttribute="centerY" id="mgh-M8-to9"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="bFf-WY-9yO" firstAttribute="bottom" secondItem="gdP-OZ-Ssq" secondAttribute="bottom" constant="8" id="5oQ-M7-c1d"/>
+                                    <constraint firstItem="qfX-5O-nyk" firstAttribute="leading" secondItem="gdP-OZ-Ssq" secondAttribute="trailing" constant="10" id="62r-WI-BHb"/>
+                                    <constraint firstItem="gdP-OZ-Ssq" firstAttribute="top" secondItem="bFf-WY-9yO" secondAttribute="top" constant="8" id="Ei8-ev-OZ7"/>
+                                    <constraint firstAttribute="height" constant="48" id="EuS-gd-VhA"/>
+                                    <constraint firstItem="qfX-5O-nyk" firstAttribute="top" secondItem="bFf-WY-9yO" secondAttribute="top" constant="12" id="OyO-uM-jJA"/>
+                                    <constraint firstItem="bFf-WY-9yO" firstAttribute="bottom" secondItem="qfX-5O-nyk" secondAttribute="bottom" constant="12" id="c1r-Jo-tkM"/>
+                                    <constraint firstItem="gdP-OZ-Ssq" firstAttribute="leading" secondItem="bFf-WY-9yO" secondAttribute="leading" constant="13" id="i9z-PV-HmM"/>
+                                    <constraint firstItem="bFf-WY-9yO" firstAttribute="trailing" secondItem="qfX-5O-nyk" secondAttribute="trailing" constant="13" id="qh6-he-mlQ"/>
+                                    <constraint firstItem="qfX-5O-nyk" firstAttribute="centerY" secondItem="gdP-OZ-Ssq" secondAttribute="centerY" id="wC4-WZ-9V6"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="bFf-WY-9yO"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1lb-rS-fWi" customClass="LoadingImageView" customModule="ExploreTyumen" customModuleProvider="target">
+                                <rect key="frame" x="13" y="56" width="95" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="G60-W8-nc6"/>
+                                    <constraint firstAttribute="height" constant="95" id="IJm-X3-B4c"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сквер был создан в память о кошках, привезенных из Тюмени в блокадный Ленинград для спасения города от крыс" textAlignment="natural" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMk-w8-n48">
+                                <rect key="frame" x="120" y="56" width="187" height="116"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                                <color key="textColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ibi-Pa-shb" secondAttribute="trailing" id="2eU-kU-4RK"/>
+                            <constraint firstAttribute="bottom" secondItem="jMk-w8-n48" secondAttribute="bottom" constant="12" id="5gu-4B-fyM"/>
+                            <constraint firstAttribute="trailing" secondItem="jMk-w8-n48" secondAttribute="trailing" constant="13" id="B63-Vk-3Ps"/>
+                            <constraint firstItem="jMk-w8-n48" firstAttribute="leading" secondItem="1lb-rS-fWi" secondAttribute="trailing" constant="12" id="PEv-My-KCE"/>
+                            <constraint firstItem="1lb-rS-fWi" firstAttribute="leading" secondItem="Qif-JO-jbM" secondAttribute="leading" constant="13" id="Sj9-B9-0j6"/>
+                            <constraint firstItem="jMk-w8-n48" firstAttribute="top" secondItem="1lb-rS-fWi" secondAttribute="top" id="aT2-KL-dQa"/>
+                            <constraint firstItem="1lb-rS-fWi" firstAttribute="top" secondItem="ibi-Pa-shb" secondAttribute="bottom" constant="8" id="cRy-Rs-e0X"/>
+                            <constraint firstItem="ibi-Pa-shb" firstAttribute="top" secondItem="Qif-JO-jbM" secondAttribute="top" id="f5g-8a-iSD"/>
+                            <constraint firstItem="ibi-Pa-shb" firstAttribute="leading" secondItem="Qif-JO-jbM" secondAttribute="leading" id="tJM-Sa-oBY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Qif-JO-jbM" firstAttribute="top" secondItem="KG1-qb-4tM" secondAttribute="top" id="KRU-cK-HG3"/>
+                <constraint firstAttribute="bottom" secondItem="Qif-JO-jbM" secondAttribute="bottom" id="QR6-zt-eUC"/>
+                <constraint firstItem="Qif-JO-jbM" firstAttribute="leading" secondItem="KG1-qb-4tM" secondAttribute="leading" id="amq-vc-Yk4"/>
+                <constraint firstAttribute="trailing" secondItem="Qif-JO-jbM" secondAttribute="trailing" id="j1W-66-lOI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="4u8-43-kOj"/>
+            <size key="customSize" width="147" height="27"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="12"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="backView" destination="Qif-JO-jbM" id="C5J-Vf-3Lg"/>
+                <outlet property="factLabel" destination="jMk-w8-n48" id="AJg-Cx-rgV"/>
+                <outlet property="imageMain" destination="1lb-rS-fWi" id="fSd-xi-4y5"/>
+                <outlet property="titleLabel" destination="gdP-OZ-Ssq" id="CHc-27-SF3"/>
+            </connections>
+            <point key="canvasLocation" x="265.60000000000002" y="97.151424287856074"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StatisticsInQuestCell" id="l4E-uc-vnL" customClass="StatisticsInQuestCell" customModule="ExploreTyumen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCs-I5-e2y">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="118"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="90 минут" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZ7-Gb-ezI">
+                                <rect key="frame" x="94" y="24" width="112" height="30.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
+                                <color key="textColor" red="0.18823529410000001" green="0.21960784310000001" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="потребуется для прохождения квеста" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ci-qO-fLA">
+                                <rect key="frame" x="55" y="64.5" width="190" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="190" id="e3i-fq-WlV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                <color key="textColor" red="0.18823529410000001" green="0.21960784310000001" blue="0.27058823529999998" alpha="0.78867737680000005" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4ci-qO-fLA" firstAttribute="centerX" secondItem="SCs-I5-e2y" secondAttribute="centerX" id="7OQ-DF-NX0"/>
+                            <constraint firstItem="CZ7-Gb-ezI" firstAttribute="centerX" secondItem="SCs-I5-e2y" secondAttribute="centerX" id="STA-dw-LHk"/>
+                            <constraint firstAttribute="bottom" secondItem="4ci-qO-fLA" secondAttribute="bottom" constant="13.5" id="qWc-eg-zd3"/>
+                            <constraint firstItem="4ci-qO-fLA" firstAttribute="top" secondItem="CZ7-Gb-ezI" secondAttribute="bottom" constant="10" id="uww-fu-cuL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="SCs-I5-e2y" firstAttribute="leading" secondItem="l4E-uc-vnL" secondAttribute="leading" id="7To-rK-gK7"/>
+                <constraint firstItem="SCs-I5-e2y" firstAttribute="top" secondItem="l4E-uc-vnL" secondAttribute="top" id="AtX-XI-NeM"/>
+                <constraint firstAttribute="trailing" secondItem="SCs-I5-e2y" secondAttribute="trailing" id="XN5-Fh-6wZ"/>
+                <constraint firstAttribute="bottom" secondItem="SCs-I5-e2y" secondAttribute="bottom" id="djH-4v-l8N"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="p4F-f9-aLW"/>
+            <size key="customSize" width="300" height="118"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="20"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="descriptionLabel" destination="4ci-qO-fLA" id="Kq8-dc-JIw"/>
+                <outlet property="valueLabel" destination="CZ7-Gb-ezI" id="9A5-RR-Lgt"/>
+            </connections>
+            <point key="canvasLocation" x="152.17391304347828" y="95.758928571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

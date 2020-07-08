@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="Places_Nearby" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YGh-5M-YVM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6GM-JE-hVN" customClass="LoadingImageView" customModule="Places_Nearby" customModuleProvider="target">
+                                <rect key="frame" x="13" y="13" width="85" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6GM-JE-hVN" secondAttribute="height" multiplier="1:1" id="5UB-L9-0yc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oK9-18-gwO">
+                                <rect key="frame" x="112" y="13" width="178" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                <color key="textColor" white="0.13350022007042253" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9u-X1-cyO">
+                                <rect key="frame" x="112" y="98" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SxB-mL-Yts">
+                                <rect key="frame" x="208" y="74" width="99" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Поблизости" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMM-Tf-oqm">
+                                        <rect key="frame" x="10" y="3.5" width="79" height="17"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.62352941179999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="HuJ-tJ-fji"/>
+                                    <constraint firstItem="tMM-Tf-oqm" firstAttribute="centerY" secondItem="SxB-mL-Yts" secondAttribute="centerY" id="MCN-D6-1xx"/>
+                                    <constraint firstAttribute="trailing" secondItem="tMM-Tf-oqm" secondAttribute="trailing" constant="10" id="mIk-PH-UOF"/>
+                                    <constraint firstItem="tMM-Tf-oqm" firstAttribute="leading" secondItem="SxB-mL-Yts" secondAttribute="leading" constant="10" id="x9w-zO-0Wr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="PXn-0L-leO" firstAttribute="trailing" secondItem="oK9-18-gwO" secondAttribute="trailing" constant="30" id="25a-I2-5Ew"/>
+                            <constraint firstItem="PXn-0L-leO" firstAttribute="bottom" secondItem="6GM-JE-hVN" secondAttribute="bottom" constant="13" id="58E-cX-8Wd"/>
+                            <constraint firstItem="oK9-18-gwO" firstAttribute="leading" secondItem="6GM-JE-hVN" secondAttribute="trailing" constant="14" id="AuI-b6-pvb"/>
+                            <constraint firstItem="PXn-0L-leO" firstAttribute="trailing" secondItem="SxB-mL-Yts" secondAttribute="trailing" constant="13" id="BRE-pF-1HR"/>
+                            <constraint firstItem="l9u-X1-cyO" firstAttribute="bottom" secondItem="6GM-JE-hVN" secondAttribute="bottom" id="Od1-8T-Jne"/>
+                            <constraint firstItem="6GM-JE-hVN" firstAttribute="top" secondItem="PXn-0L-leO" secondAttribute="top" constant="13" id="e1F-sh-CwR"/>
+                            <constraint firstItem="oK9-18-gwO" firstAttribute="top" secondItem="6GM-JE-hVN" secondAttribute="top" id="h0j-N9-9pC"/>
+                            <constraint firstItem="6GM-JE-hVN" firstAttribute="leading" secondItem="PXn-0L-leO" secondAttribute="leading" constant="13" id="iR2-5R-1t4"/>
+                            <constraint firstItem="l9u-X1-cyO" firstAttribute="leading" secondItem="oK9-18-gwO" secondAttribute="leading" id="oup-uc-bIV"/>
+                            <constraint firstItem="SxB-mL-Yts" firstAttribute="bottom" secondItem="6GM-JE-hVN" secondAttribute="bottom" id="xyn-4D-kPn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PXn-0L-leO"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="111"/>
+                    <connections>
+                        <outlet property="distanceLabel" destination="l9u-X1-cyO" id="i2e-4O-Zb5"/>
+                        <outlet property="imageViewMain" destination="6GM-JE-hVN" id="h0b-aL-28T"/>
+                        <outlet property="titleLabel" destination="oK9-18-gwO" id="yLw-Hp-9Hd"/>
+                        <outlet property="typeView" destination="SxB-mL-Yts" id="OVl-UW-YiH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.59999999999999" y="115.14242878560721"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Places_Nearby {
+  umbrella header "Pods-Places Nearby-umbrella.h"
+
+  export *
+  module * { export * }
+}

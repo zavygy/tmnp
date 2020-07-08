@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.43"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ThingsToDoneMainCollectionViewCell" id="HEv-lw-V8L" customClass="ThingsToDoneMainCollectionViewCell" customModule="ExploreTyumen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="137"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="137"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JYp-mN-vzm">
+                        <rect key="frame" x="0.0" y="0.0" width="344" height="137"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="C8t-Wn-IiM">
+                                <rect key="frame" x="-5" y="-5" width="354" height="147"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oo9-qk-lab">
+                                <rect key="frame" x="0.0" y="0.0" width="344" height="137"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="вещей, которые надо сделать в Тюмени" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtb-2a-ejx">
+                                        <rect key="frame" x="94" y="41.5" width="234" height="54"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUo-J8-zM4">
+                                        <rect key="frame" x="12" y="31" width="72" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="72" id="1mp-NS-U3I"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="64"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.44110365316901406" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Jtb-2a-ejx" secondAttribute="trailing" constant="16" id="1rp-Rm-jAH"/>
+                                    <constraint firstItem="RUo-J8-zM4" firstAttribute="centerY" secondItem="oo9-qk-lab" secondAttribute="centerY" id="VYP-ag-dkf"/>
+                                    <constraint firstItem="Jtb-2a-ejx" firstAttribute="centerY" secondItem="oo9-qk-lab" secondAttribute="centerY" id="jfd-GY-Oai"/>
+                                    <constraint firstItem="RUo-J8-zM4" firstAttribute="leading" secondItem="oo9-qk-lab" secondAttribute="leading" constant="12" id="wZK-y2-pmd"/>
+                                    <constraint firstItem="Jtb-2a-ejx" firstAttribute="leading" secondItem="RUo-J8-zM4" secondAttribute="trailing" constant="10" id="wbB-56-1HW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oo9-qk-lab" firstAttribute="top" secondItem="JYp-mN-vzm" secondAttribute="top" id="9fP-8b-rQx"/>
+                            <constraint firstAttribute="bottom" secondItem="oo9-qk-lab" secondAttribute="bottom" id="Iqu-D8-mI3"/>
+                            <constraint firstAttribute="bottom" secondItem="C8t-Wn-IiM" secondAttribute="bottom" constant="-5" id="T91-jy-mnl"/>
+                            <constraint firstAttribute="height" constant="137" id="Ui8-Fn-j6t"/>
+                            <constraint firstAttribute="trailing" secondItem="C8t-Wn-IiM" secondAttribute="trailing" constant="-5" id="Xj8-nJ-ATd"/>
+                            <constraint firstItem="C8t-Wn-IiM" firstAttribute="leading" secondItem="JYp-mN-vzm" secondAttribute="leading" constant="-5" id="erz-w5-dqm"/>
+                            <constraint firstItem="oo9-qk-lab" firstAttribute="leading" secondItem="JYp-mN-vzm" secondAttribute="leading" id="jWq-4U-fqc"/>
+                            <constraint firstItem="C8t-Wn-IiM" firstAttribute="top" secondItem="JYp-mN-vzm" secondAttribute="top" constant="-5" id="kPR-vL-kE9"/>
+                            <constraint firstAttribute="trailing" secondItem="oo9-qk-lab" secondAttribute="trailing" id="odU-Jo-etA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="JYp-mN-vzm" firstAttribute="leading" secondItem="HEv-lw-V8L" secondAttribute="leading" id="3vT-rI-3bD"/>
+                <constraint firstAttribute="trailing" secondItem="JYp-mN-vzm" secondAttribute="trailing" id="5wf-zn-F8l"/>
+                <constraint firstAttribute="bottom" secondItem="JYp-mN-vzm" secondAttribute="bottom" id="Il6-3X-UCg"/>
+                <constraint firstItem="JYp-mN-vzm" firstAttribute="top" secondItem="HEv-lw-V8L" secondAttribute="top" id="KSj-2j-Ehk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="sqe-8W-EOA"/>
+            <size key="customSize" width="344" height="137"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="12"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="backView" destination="JYp-mN-vzm" id="O4V-Pb-iYu"/>
+                <outlet property="imageMain" destination="C8t-Wn-IiM" id="NYh-Xg-cUV"/>
+                <outlet property="mainView" destination="oo9-qk-lab" id="Wjv-Vm-b4T"/>
+                <outlet property="titleLabel" destination="Jtb-2a-ejx" id="NHf-Np-03Q"/>
+            </connections>
+            <point key="canvasLocation" x="244.80000000000001" y="160.56971514242881"/>
+        </collectionViewCell>
+    </objects>
+</document>

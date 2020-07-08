@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'ExploreTyumen' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+
+  use_frameworks!
+
+  pod "MapKitGoogleStyler"
+  pod 'lottie-ios'
+  pod 'Firebase'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'Firebase/DynamicLinks'
+  pod 'Alamofire' 
+  pod 'RealmSwift'
+  
+
+
+  # Pods for ExploreTyumen
+
+end
+
+
+
+target 'Places Nearby' do
+
+  use_frameworks!
+
+  pod 'Firebase'
+  pod 'Firebase/Database'
+  pod 'Alamofire' 
+
+end

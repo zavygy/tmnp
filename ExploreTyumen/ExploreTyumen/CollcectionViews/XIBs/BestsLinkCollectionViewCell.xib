@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.43"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="BestsLinkCollectionViewCell" reuseIdentifier="BestsLinkCollectionViewCell" id="4HS-HM-PGf" customClass="BestsLinkCollectionViewCell" customModule="ExploreTyumen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="192"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="192"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nz9-hM-Huh">
+                        <rect key="frame" x="0.0" y="0.0" width="350" height="192"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0q2-yn-xVI">
+                                <rect key="frame" x="267" y="12" width="70" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Лучшее" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSc-h8-IFa">
+                                        <rect key="frame" x="9.5" y="4" width="51" height="16"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92280483278445602" green="0.4932779966585315" blue="0.24392308718449504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="dSc-h8-IFa" firstAttribute="top" secondItem="0q2-yn-xVI" secondAttribute="top" constant="4" id="3Hu-Xg-gsV"/>
+                                    <constraint firstItem="dSc-h8-IFa" firstAttribute="centerX" secondItem="0q2-yn-xVI" secondAttribute="centerX" id="FKM-mb-aak"/>
+                                    <constraint firstItem="dSc-h8-IFa" firstAttribute="centerY" secondItem="0q2-yn-xVI" secondAttribute="centerY" id="Iz6-ID-88M"/>
+                                    <constraint firstAttribute="width" constant="70" id="eDz-aj-QxK"/>
+                                    <constraint firstAttribute="height" constant="24" id="oUF-nv-RRf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Литературный бульвар" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TH-19-RVh">
+                                <rect key="frame" x="15" y="12" width="244" height="32.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="20"/>
+                                <color key="textColor" red="0.18823529410000001" green="0.21960784310000001" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fRw-my-Z9V">
+                                <rect key="frame" x="8" y="48.5" width="334" height="135.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135.5" id="Ed4-ed-vZW"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="dsm-7f-wjD">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0q2-yn-xVI" firstAttribute="top" secondItem="nz9-hM-Huh" secondAttribute="top" constant="12" id="3Xk-c2-bWZ"/>
+                            <constraint firstItem="fRw-my-Z9V" firstAttribute="leading" secondItem="nz9-hM-Huh" secondAttribute="leading" constant="8" id="5eM-dF-KKS"/>
+                            <constraint firstItem="8TH-19-RVh" firstAttribute="top" secondItem="0q2-yn-xVI" secondAttribute="top" id="7Ff-ae-Gsg"/>
+                            <constraint firstAttribute="bottom" secondItem="fRw-my-Z9V" secondAttribute="bottom" constant="8" id="Cdd-kZ-bPy"/>
+                            <constraint firstAttribute="trailing" secondItem="0q2-yn-xVI" secondAttribute="trailing" constant="13" id="RfP-3y-GFT"/>
+                            <constraint firstItem="0q2-yn-xVI" firstAttribute="leading" secondItem="8TH-19-RVh" secondAttribute="trailing" constant="8" id="Tc3-8k-MrT"/>
+                            <constraint firstAttribute="trailing" secondItem="fRw-my-Z9V" secondAttribute="trailing" constant="8" id="bYh-Xd-iKt"/>
+                            <constraint firstItem="8TH-19-RVh" firstAttribute="leading" secondItem="nz9-hM-Huh" secondAttribute="leading" constant="15" id="cq1-r0-joT"/>
+                            <constraint firstItem="fRw-my-Z9V" firstAttribute="top" secondItem="8TH-19-RVh" secondAttribute="bottom" constant="4" id="oM2-Tq-jfC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="nz9-hM-Huh" firstAttribute="leading" secondItem="4HS-HM-PGf" secondAttribute="leading" id="03C-Mu-glk"/>
+                <constraint firstAttribute="bottom" secondItem="nz9-hM-Huh" secondAttribute="bottom" id="bzR-yh-oCa"/>
+                <constraint firstItem="nz9-hM-Huh" firstAttribute="top" secondItem="4HS-HM-PGf" secondAttribute="top" id="cil-GM-NVI"/>
+                <constraint firstAttribute="trailing" secondItem="nz9-hM-Huh" secondAttribute="trailing" id="e0L-bE-SHt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="gQr-Wg-kwp"/>
+            <size key="customSize" width="350" height="192"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="12"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="backView" destination="nz9-hM-Huh" id="Pj8-Zf-6WG"/>
+                <outlet property="colViewHeight" destination="Ed4-ed-vZW" id="FV2-bS-cG9"/>
+                <outlet property="collectionView" destination="fRw-my-Z9V" id="mTe-Rb-myM"/>
+                <outlet property="titleLabel" destination="8TH-19-RVh" id="tuS-Zg-1qc"/>
+            </connections>
+            <point key="canvasLocation" x="66.666666666666671" y="0.6696428571428571"/>
+        </collectionViewCell>
+    </objects>
+</document>
